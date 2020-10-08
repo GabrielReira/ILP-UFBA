@@ -1,6 +1,5 @@
-# A - Expressões aritméticas
+# A - Expressões Aritméticas
 
----
 
 ### A1 - Mercado do futuro
 Ana é uma garota amante de jogos eletrônicos e não gosta de perder
@@ -22,7 +21,7 @@ quantidade de produtos por cliente, nesta ordem.
 - 1 ≤ Q ≤ 30.  
 #### Saída:
 A saída consiste em uma linha com um número inteiro, indicando o
-tempo perdido no mercado.
+tempo perdido no mercado.  
 
 | Entrada | Saída |
 | --- | --- |
@@ -35,3 +34,24 @@ tempo perdido no mercado.
 
 
 ---
+
+
+### A2 - Que os jogos comecem 1
+Você foi transportado para um mundo de aventuras e fantasias! Neste mundo
+você deve resolver questões para aumentar seu nível.  
+Logo de cara você encontra O SER SUPREMO chamado **Malver**.  
+Malver lhe desafia a resolver uma questão de matemática NÍVEL 3.  
+Então vamos lá...É HORA DO DUELO:  
+Resolva: X + (25 - 1 + (-11 + 3) + 4)
+
+#### Entrada:
+Você receberá um número inteiro ‘X’ (1 <= ‘X <= 1000).  
+#### Saída:
+Imprima a frase “Resultado da questão é: ” seguido da resposta.
+
+| Entrada | Saída |
+| --- | --- |
+| 20 | 40 |
+| 50 | 70 |
+| 70 | 90 |
+| 100 | 120 |
