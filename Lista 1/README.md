@@ -231,3 +231,26 @@ comprar.
 | 10 12 | Ok! <br> 2 |
 | 45 25 | 20 |
 | 5 5 | Ok! |
+
+
+
+### B3 - Drone da Amazonia
+A loja Amazonia decidiu fazer suas entregas utilizando drones, porém, ainda é necessário implementar a parte do código que irá dizer ao drone se ele está na posição determinada para entrega
+ou não. Você deve escrever um programa que dadas as coordenadas de entrega e atual do drone,
+diga se o drone pode ou não soltar o pacote.
+
+#### Entrada:
+A primeira linha da entrada consiste de dois inteiros, Xe e Ye, correspondentes as coordenadas de
+entrega. A segunda linha consiste de dois inteiros, Xd e Yd, correspondentes as coordenadas do
+drone.
+- 1 ≤ Xe, Ye, Xd, Yd ≤ 1000.
+
+#### Saída:
+Seu programa deve imprimir em uma única linha dizendo “Soltar pacote” caso as
+coordenadas de entrega e do drone sejam iguais, ou “Nao soltar pacote”, caso
+sejam diferentes.
+
+| Entrada | Saída |
+| --- | --- |
+| 5 20 <br> 5 20 | Soltar pacote |
+| 3 4 <br> 2 4 | Nao soltar pacote |
