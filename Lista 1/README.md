@@ -134,3 +134,28 @@ precisa ser estocada.
 | Entrada | Saída |
 | --- | --- |
 | 500 20 <br> 200 40 <br> 50 20 | 19000 |
+
+
+---
+
+
+### A6 - Área do mapa
+Você foi contratado por uma famosa empresa de desenvolvimento de
+jogos e foi logo alocado para a parte de desenvolvimento.  
+A empresa anda ocupada em desenvolver um novo jogo de mundo aberto com 
+um mapa realmente grande. Você ficou responsável por implementar o
+programa que, dados o comprimento e a largura do mapa, calcula a sua
+área e a imprime na tela. Não desaponte seus novos chefes!
+
+#### Entrada:
+A entrada possui uma única linha, contendo dois números inteiros
+**C e L, com 1 <= C <= L <= 10000**. 
+#### Saída:
+A saída consiste em uma única linha contendo um número inteiro: A
+área do mapa a ser calculada.
+
+| Entrada | Saída |
+| --- | --- |
+| 10 10 | 100 |
+| 46 900 | 41400 |
+| 7 4 | 28 |
