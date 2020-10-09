@@ -51,7 +51,34 @@ Imprima a frase “Resultado da questão é: ” seguido da resposta.
 
 | Entrada | Saída |
 | --- | --- |
-| 20 | 40 |
-| 50 | 70 |
-| 70 | 90 |
-| 100 | 120 |
+| 20 | Resultado da questão é: 40 |
+| 50 | Resultado da questão é: 70 |
+| 70 | Resultado da questão é: 90 |
+| 100 | Resultado da questão é: 120 |
+
+
+---
+
+
+### A3 - Que os jogos comecem 2
+Hum.... Conheço você de algum lugar!!  
+De onde será? HAAAAAAAAA....Não acredito que passou no meu teste de nível 3.  
+Se prepare para o próximo desafio.  
+Aliás, dessa vez vou pedir uma ajuda do meu amigo Sasuke.  
+É HORA DO DUELO:  
+Resolva:
+- Questão 1: X + (54 * (43 * 2) + (Y + 43))
+- Questão 2: Y * (24 * (12 * 3) - (X + 43))
+- Total = Questão 1 + Questão 2
+
+#### Entrada:
+Você receberá dois números inteiros ‘X’ e ‘Y’ (1 <= ‘X’, ‘Y’ <= 1000).
+#### Saída:
+Imprima as frases conforme a coluna SAÍDA informado na tabela abaixo.
+
+| Entrada | Saída |
+| --- | --- |
+| 5 7 | Resultado da primeira questão é: 4699 <br> Resultado da segunda questão é: 5712 <br> Resultado final é: 10411 |
+| 12 32 | Resultado da primeira questão é: 4731 <br> Resultado da segunda questão é: 25888 <br> Resultado final é: 30619  |
+| 9 6 | Resultado da primeira questão é: 4702 <br> Resultado da segunda questão é: 4872 <br> Resultado final é: 9574  |
+| 13 21 | Resultado da primeira questão é: 4721 <br> Resultado da segunda questão é: 16968 <br> Resultado final é: 21689  |
