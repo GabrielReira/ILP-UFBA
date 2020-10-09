@@ -18,7 +18,8 @@ A entrada possui uma única linha, contendo um número inteiro “C”
 indicando o número de clientes na fila e um número inteiro “Q” indicando a
 quantidade de produtos por cliente, nesta ordem.  
 - 1 ≤ C ≤ 20;
-- 1 ≤ Q ≤ 30.  
+- 1 ≤ Q ≤ 30.
+
 #### Saída:
 A saída consiste em uma linha com um número inteiro, indicando o
 tempo perdido no mercado.  
@@ -33,8 +34,6 @@ tempo perdido no mercado.
 | 10 10 | 200 |
 
 
----
-
 
 ### A2 - Que os jogos comecem 1
 Você foi transportado para um mundo de aventuras e fantasias! Neste mundo
@@ -45,7 +44,8 @@ Então vamos lá...É HORA DO DUELO:
 Resolva: **X + (25 - 1 + (-11 + 3) + 4)**
 
 #### Entrada:
-Você receberá um número inteiro ‘X’ (1 <= ‘X <= 1000).  
+Você receberá um número inteiro ‘X’ (1 <= ‘X <= 1000).
+
 #### Saída:
 Imprima a frase “Resultado da questão é: ” seguido da resposta.
 
@@ -56,8 +56,6 @@ Imprima a frase “Resultado da questão é: ” seguido da resposta.
 | 70 | Resultado da questão é: 90 |
 | 100 | Resultado da questão é: 120 |
 
-
----
 
 
 ### A3 - Que os jogos comecem 2
@@ -73,6 +71,7 @@ Resolva:
 
 #### Entrada:
 Você receberá dois números inteiros ‘X’ e ‘Y’ (1 <= ‘X’, ‘Y’ <= 1000).
+
 #### Saída:
 Imprima as frases conforme a coluna SAÍDA informado na tabela abaixo.
 
@@ -83,8 +82,6 @@ Imprima as frases conforme a coluna SAÍDA informado na tabela abaixo.
 | 9 6 | Resultado da primeira questão é: 4702 <br> Resultado da segunda questão é: 4872 <br> Resultado final é: 9574  |
 | 13 21 | Resultado da primeira questão é: 4721 <br> Resultado da segunda questão é: 16968 <br> Resultado final é: 21689  |
 
-
----
 
 
 ### A4 - Maratona Netflix
@@ -101,6 +98,7 @@ A entrada consiste de cinco inteiros Ki, separados por espaços, correspondentes
 número de horas estudadas em cada dia da semana.  
 - 0 ≤ Ki ≤ 24;
 - 0 < i ≤ 5.
+
 #### Saída:
 A saída é composta por uma única linha contendo um inteiro com o número de horas
 disponíveis para assistir a série.
@@ -110,8 +108,6 @@ disponíveis para assistir a série.
 | 5 4 3 2 1 | 30 |
 | 0 0 2 5 0 | 14 |
 
-
----
 
 
 ### A5 - Game Of Thrones
@@ -127,6 +123,7 @@ A entrada possui 3 linhas, onde na primeira linha temos o número de pessoas no 
 e a quantidade de comida que cada pessoa precisa, a segunda linha possui o número de
 cavalos e a quantidade de comida para cada cavalo, a terceira linha será o número de
 lobos e a quantidade de alimento que cada lobo consome.
+
 #### Saída:
 A saída consiste em uma linha informando o total de comida que
 precisa ser estocada.
@@ -135,8 +132,6 @@ precisa ser estocada.
 | --- | --- |
 | 500 20 <br> 200 40 <br> 50 20 | 19000 |
 
-
----
 
 
 ### A6 - Área do mapa
@@ -149,7 +144,8 @@ programa que, dados o comprimento e a largura do mapa, calcula a sua
 
 #### Entrada:
 A entrada possui uma única linha, contendo dois números inteiros
-**C e L, com 1 <= C <= L <= 10000**. 
+**C e L, com 1 <= C <= L <= 10000**.
+
 #### Saída:
 A saída consiste em uma única linha contendo um número inteiro: A
 área do mapa a ser calculada.
@@ -159,6 +155,10 @@ A saída consiste em uma única linha contendo um número inteiro: A
 | 10 10 | 100 |
 | 46 900 | 41400 |
 | 7 4 | 28 |
+
+
+
+---
 
 
 
@@ -178,7 +178,8 @@ Universo, ele diga a atitude que Thanos tomará.
 
 #### Entrada:
 A entrada consiste de um número inteiro *N*.  
-- 1 ≤ N ≤ 1015
+- 1 ≤ N ≤ 10¹⁵
+
 #### Saída:
 Seu Programa deve imprimir duas linhas. A primeira deverá conter o número analisado. A segunda
 conterá somente uma das duas frases abaixo:
@@ -190,3 +191,43 @@ conterá somente uma das duas frases abaixo:
 | 10000 | 10000 <br> Thanos nao poupara o Universo. |
 | 1912739 | 1912739 <br> Thanos poupara o Universo. |
 | 1000000000008 | 1000000000008 <br> Thanos nao poupara o Universo. |
+
+
+
+### B2 - Pokémon
+A franquia de jogos de Pokémon consiste em um mundo onde as
+pessoas convivem com “monstros”, construindo relação com eles,
+capturando, batalhando, entre outras atividades. Um dos objetivos
+principais dos jogos é capturar todos os Pokémon possíveis da região,
+para ajudar o Professor a completar a enciclopédia chamada Pokédex.
+Para capturar um Pokémon, é necessário enfraquecê-lo e, então, jogar a
+Pokébola.  
+Leaf é uma garota que está em missão para completar a Pokédex e
+deseja saber se a quantidade de Pokébolas que ela tem no momento é
+suficiente para capturar todos os Pokémon da área em que ela está.
+Desconsiderando a chance de um Pokémon fugir da Pokébola e considerando
+que cada área tem diversidade limitada de espécies de Pokémon, escreva um
+programa que determina se Leaf tem Pokébolas suficientes para capturar
+todos as espécies que podem aparecer ali e, se não tiver, quantas Pokébolas
+ela precisa comprar.  
+
+#### Entrada:
+A entrada possui uma única linha, com dois números *E* e *P*, que
+determinam, respectivamente, a quantidade de espécies diferentes de
+Pokémon que aparecem naquela área e a quantidade de Pokébolas que Leaf
+tem no momento.
+- 0 ≤ E ≤ 50;
+- 0 ≤ P ≤ 75.
+
+#### Saída:
+O programa deve imprimir “Ok!”, se Leaf tem Pokébolas suficientes
+para capturar todas as espécies da área e, se sobrarem Pokébolas, deve
+imprimir, em outra linha, um inteiro *S* indicando quantas sobraram. Caso
+contrário, imprima um número inteiro *Q* indicando quantas ela precisa
+comprar.
+
+| Entrada | Saída |
+| --- | --- |
+| 10 12 | Ok! <br> 2 |
+| 45 25 | 20 |
+| 5 5 | Ok! |
