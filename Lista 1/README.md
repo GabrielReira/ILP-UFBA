@@ -17,7 +17,7 @@ gasta tempo algum, é simples e prático.
 A entrada possui uma única linha, contendo um número inteiro “C”
 indicando o número de clientes na fila e um número inteiro “Q” indicando a
 quantidade de produtos por cliente, nesta ordem.  
-- 1 ≤ C ≤ 20.  
+- 1 ≤ C ≤ 20;
 - 1 ≤ Q ≤ 30.  
 #### Saída:
 A saída consiste em uma linha com um número inteiro, indicando o
@@ -42,7 +42,7 @@ você deve resolver questões para aumentar seu nível.
 Logo de cara você encontra O SER SUPREMO chamado **Malver**.  
 Malver lhe desafia a resolver uma questão de matemática NÍVEL 3.  
 Então vamos lá...É HORA DO DUELO:  
-Resolva: X + (25 - 1 + (-11 + 3) + 4)
+Resolva: **X + (25 - 1 + (-11 + 3) + 4)**
 
 #### Entrada:
 Você receberá um número inteiro ‘X’ (1 <= ‘X <= 1000).  
@@ -67,9 +67,9 @@ Se prepare para o próximo desafio.
 Aliás, dessa vez vou pedir uma ajuda do meu amigo Sasuke.  
 É HORA DO DUELO:  
 Resolva:
-- Questão 1: X + (54 * (43 * 2) + (Y + 43))
-- Questão 2: Y * (24 * (12 * 3) - (X + 43))
-- Total = Questão 1 + Questão 2
+- Questão 1: **X + (54 * (43 * 2) + (Y + 43))**;
+- Questão 2: **Y * (24 * (12 * 3) - (X + 43))**;
+- Total = **Questão 1 + Questão 2**.
 
 #### Entrada:
 Você receberá dois números inteiros ‘X’ e ‘Y’ (1 <= ‘X’, ‘Y’ <= 1000).
@@ -82,3 +82,32 @@ Imprima as frases conforme a coluna SAÍDA informado na tabela abaixo.
 | 12 32 | Resultado da primeira questão é: 4731 <br> Resultado da segunda questão é: 25888 <br> Resultado final é: 30619  |
 | 9 6 | Resultado da primeira questão é: 4702 <br> Resultado da segunda questão é: 4872 <br> Resultado final é: 9574  |
 | 13 21 | Resultado da primeira questão é: 4721 <br> Resultado da segunda questão é: 16968 <br> Resultado final é: 21689  |
+
+
+---
+
+### A4 - Maratona Netflix
+Jorginho está indo mal no colégio. Visando passar em todas as matérias, ele definiu um
+sistema de recompensas próprio. Para cada hora de estudo, ele “ganha” duas horas de
+Netflix.  
+Como ele pretende terminar “Stranger Things”, Jorginho pediu que você desenvolvesse
+um programa que recebe as horas estudadas durante a semana e retorna o número de
+horas de lazer disponíveis para serem “resgatadas”, sabendo que ele não estudou no fim
+de semana.  
+
+#### Entrada:
+A entrada consiste de cinco inteiros Ki, separados por espaços, correspondentes ao
+número de horas estudadas em cada dia da semana.  
+- 0 ≤ Ki ≤ 24;
+- 0 < i ≤ 5.
+#### Saída:
+A saída é composta por uma única linha contendo um inteiro com o número de horas
+disponíveis para assistir a série.
+
+| Entrada | Saída |
+| --- | --- |
+| 5 4 3 2 1 | 30 |
+| 0 0 2 5 0 | 14 |
+
+
+---
