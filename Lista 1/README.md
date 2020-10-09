@@ -86,6 +86,7 @@ Imprima as frases conforme a coluna SAÍDA informado na tabela abaixo.
 
 ---
 
+
 ### A4 - Maratona Netflix
 Jorginho está indo mal no colégio. Visando passar em todas as matérias, ele definiu um
 sistema de recompensas próprio. Para cada hora de estudo, ele “ganha” duas horas de
@@ -111,3 +112,25 @@ disponíveis para assistir a série.
 
 
 ---
+
+
+### A5 - Game Of Thrones
+O inverno está chegando no mundo de game of thrones, e Jon Snow precisa de sua ajuda para
+salvar a vida do povo do norte.  
+Com a chegada do inverno Jon precisa saber qual a quantidade
+de comida que precisa ser estocada em Winterfell. Porém, fazer esses cálculos demanda algum
+trabalho e Jon precisa pensar em outras coisas no momento, então sobrou para você a missão
+de fazer um programa que faça todos os cálculos de forma rápida e clara.
+
+#### Entrada:
+A entrada possui 3 linhas, onde na primeira linha temos o número de pessoas no castelo
+e a quantidade de comida que cada pessoa precisa, a segunda linha possui o número de
+cavalos e a quantidade de comida para cada cavalo, a terceira linha será o número de
+lobos e a quantidade de alimento que cada lobo consome.
+#### Saída:
+A saída consiste em uma linha informando o total de comida que
+precisa ser estocada.
+
+| Entrada | Saída |
+| --- | --- |
+| 500 20 <br> 200 40 <br> 50 20 | 19000 |
