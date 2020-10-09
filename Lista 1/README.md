@@ -254,3 +254,36 @@ sejam diferentes.
 | --- | --- |
 | 5 20 <br> 5 20 | Soltar pacote |
 | 3 4 <br> 2 4 | Nao soltar pacote |
+
+
+
+### B4 - O Microverso
+Rick e Morty estão em mais uma de suas aventuras intergalácticas quando Rick
+precisa fazer uma pausa e checar se a bateria da nave está funcionando nos conformes.  
+Essa bateria, entretanto, é nada mais nada menos que um universo em miniatura cujos
+habitantes trabalham para gerar energia para a bateria da nave do Rick. Ele agora precisa
+da sua ajuda, pois só quer dar partida na nave se tiver certeza de que os habitantes do
+Microverso estão trabalhando para gerar energia e se houver energia suficiente produzida
+até o momento para que eles possam chegar ao planeta onde tudo é espiga sem ter que
+fazer paradas pelo caminho.
+
+#### Entrada:
+A entrada possui duas linhas.  
+A primeira linha contém uma variável *T* que informa
+se os habitantes estão trabalhando (ela deve receber 1 caso estejam trabalhando e 0
+caso contrário).  
+A segunda linha contém três inteiros: *EB*, *EP* e *EN*; sendo *EB* a
+quantidade de energia que a bateria já possui (0 ≤ EB ≤ 5000), *EP* é a energia
+produzida até então pelos habitantes e que poderá ser utilizada (0 ≤ EP ≤ 3000) e *EN*
+que é a energia necessária para que Rick e Morty cheguem ao planeta onde tudo é
+espiga (0 ≤ *EN* ≤ 10000).
+
+#### Saída:
+A saída consiste em uma única linha contendo a frase: “VAI!” caso a energia total
+seja suficiente para chegar ao destino e os habitantes do Microverso estejam trabalhando,
+ou em caso contrário, imprima: “FICA!”
+
+| Entrada | Saída |
+| --- | --- |
+| 0 <br> 1000 200 7800 | FICA! |
+| 1 <br> 4000 50 4020 | VAI! |
