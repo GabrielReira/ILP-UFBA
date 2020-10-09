@@ -1,4 +1,4 @@
-# A - Expressões Aritméticas
+# A - EXPRESSÕES ARITMÉTICAS
 
 
 ### A1 - Mercado do futuro
@@ -159,3 +159,34 @@ A saída consiste em uma única linha contendo um número inteiro: A
 | 10 10 | 100 |
 | 46 900 | 41400 |
 | 7 4 | 28 |
+
+
+
+# B - IF/ELSE
+
+
+### B1 - Dilema de Thanos
+Thanos, o temido Titã do Universo Marvel, tem o objetivo de reequilibrar o universo eliminando
+exatamente metade dos seres vivos existentes.  
+O que poucas pessoas sabem é que, na verdade, Thanos sofre desde a infância com um problema:
+ele não consegue lidar bem com matemática e odeia números pares. Por conta disso, ele decidiu
+que só eliminará metade da população do universo caso essa quantidade seja um número par.  
+Thanos consultou o Oráculo com o intuito de encontrar o programador com o maior potencial em
+todo o Universo e que pudesse desenvolver seu programa. Após a consulta, você foi recrutado
+para tal tarefa. O objetivo é criar um programa que, dado o número atual da população de todo o
+Universo, ele diga a atitude que Thanos tomará. 
+
+#### Entrada:
+A entrada consiste de um número inteiro *N*.  
+- 1 ≤ N ≤ 1015
+#### Saída:
+Seu Programa deve imprimir duas linhas. A primeira deverá conter o número analisado. A segunda
+conterá somente uma das duas frases abaixo:
+- Thanos nao poupara o Universo.
+- Thanos poupara o Universo.
+
+| Entrada | Saída |
+| --- | --- |
+| 10000 | 10000 <br> Thanos nao poupara o Universo. |
+| 1912739 | 1912739 <br> Thanos poupara o Universo. |
+| 1000000000008 | 1000000000008 <br> Thanos nao poupara o Universo. |
