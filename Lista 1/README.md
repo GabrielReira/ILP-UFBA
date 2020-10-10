@@ -364,3 +364,39 @@ acima e sem acentuação
 | 45 | agua <br> ar |
 | 26 | fogo |
 | 28  | fogo <br> terra |
+
+
+
+### B7 - Quadriláteros
+Entre os quadriláteros notáveis, temos 3 com definições bem
+semelhantes: os quadrados, retângulos e losangos. Cirinho é um aluno de
+geometria que recebeu como tarefa diferenciar quadriláteros pelas suas
+medidas e pediu sua ajuda para isso.  
+Escreva um programa que define se o quadrilátero é exclusivamente
+um retângulo, exclusivamente um losango, ou exclusivamente um quadrado,
+dadas as medidas de seus lados e de seus ângulos internos (soma dos
+ângulos internos tem que ser 360 graus).  
+
+#### Entrada:
+A entrada possui duas linhas, cada uma contendo 4 inteiros.  
+A primeira linha contém 4 inteiros: L1, L2, L3 e L4, indicando as
+medidas dos lados do quadrilátero, sendo que L1 é paralelo a L4 e L2 é
+paralelo a L3.  
+A segunda linha contém 4 inteiros: A1, A2, A3 e A4, indicando as
+medidas dos ângulos do quadrilátero, sendo que A1 é oposto a A4 e A2 é
+oposto a A3.  
+
+#### Saída:
+A saída consiste em uma linha.  
+Se a figura for exclusivamente um retângulo, imprimir: “Retangulo.”,
+se a figura for exclusivamente um losango, imprimir: “Losango.”, se a figura
+for exclusivamente um quadrado, imprimir: “Quadrado.”, se a figura não se
+encaixar na definição de nenhuma das formas, imprima: “Nenhuma das
+formas procuradas.” 
+
+| Entrada | Saída |
+| --- | --- |
+| 12 12 12 12 <br> 90 90 90 90 | Quadrado. |
+| 13 30 30 13 <br> 90 90 90 90 | Retangulo. |
+| 8 8 8 8 <br> 45 135 135 45 | Losango.  |
+| 14 15 21 10 <br> 67 33 120 140 | Nenhuma das formas procuradas. |
