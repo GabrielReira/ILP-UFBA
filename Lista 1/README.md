@@ -287,3 +287,38 @@ ou em caso contrário, imprima: “FICA!”
 | --- | --- |
 | 0 <br> 1000 200 7800 | FICA! |
 | 1 <br> 4000 50 4020 | VAI! |
+
+
+
+### B5 - As 7 Esferas do Dragão
+As Esferas do Dragão são bolas laranjas e
+cristalinas que podem invocar o Deus Dragão Shenlong, que
+tem habilidades de conceder desejos para quem conseguir
+juntar todas as 7 Esferas do Dragão da Terra. Shenlong pode
+realizar qualquer desejo a não ser que ele exceda o poder de
+seu Criador, que obrigatoriamente deve estar vivo.  
+Para saber se pode realizar um desejo, Shenlong precisa da sua
+ajuda. Dada a quantidade *P* de poder necessária para realizar
+um desejo e a informação *C* de que o criador está vivo ou não,
+informe se Shenlong conseguirá realizar o desejo.  
+Um desejo pode ser realizado se a quantidade de poder necessária for
+menor ou igual a 7000 e o Criador estiver vivo.
+
+#### Entrada:
+A entrada possui uma única linha, contendo um número inteiro *P*
+indicando a quantidade de poder necessária para realizar o desejo,
+e um caractere *C* indicando se o Criador está vivo ou morto.
+- 1 ≤ P ≤ 7x10⁹;
+- C = ‘V’, se o Criador está vivo;
+- C = ‘M’, se o Criador está morto.
+
+#### Saída:
+Imprima “Sim, o desejo pode ser realizado!”, caso o desejo possa ser realizado ou
+“Nao, o desejo nao pode ser realizado :(”, caso contrário.
+
+| Entrada | Saída |
+| --- | --- |
+| 500 V | Sim, o desejo pode ser realizado! |
+| 7000 M | Nao, o desejo nao pode ser realizado :( |
+| 15000 V | Nao, o desejo nao pode ser realizado :( |
+| 500000 M  | Nao, o desejo nao pode ser realizado :( |
