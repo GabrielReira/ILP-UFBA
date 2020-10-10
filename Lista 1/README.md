@@ -322,3 +322,45 @@ Imprima “Sim, o desejo pode ser realizado!”, caso o desejo possa ser realiza
 | 7000 M | Nao, o desejo nao pode ser realizado :( |
 | 15000 V | Nao, o desejo nao pode ser realizado :( |
 | 500000 M  | Nao, o desejo nao pode ser realizado :( |
+
+
+
+### B6 - Chakra
+No universo de Naruto, cada indivíduo nasce com
+afinidade a um elemento específico no chakra que
+corresponde ao estilo de jutsu que ele pode utilizar (estilo
+**fogo**, estilo **água**, estilo **ar**, estilo **terra**
+ou estilo **raio**). Os ninjas podem ser capaz de moldar seu
+chakra a outros estilos através de muito treinamento, podendo
+até juntar estilos e criar um elemento completamente novo.  
+A vila de Konoha desenvolveu um método de
+descobrir com que elemento um ninja possui afinidade
+através de pedaços de papel que reagem de maneiras
+especificas para cada estilo, porém fica complicado de
+identificar quando um ninja domina mais de um. Por isso, a
+vila de Konoha entrou em contato com os alunos de
+programação da UFBA para que fizessem um programa
+que facilitasse essa identificação.  
+Dado um valor inteiro para um determinado chakra,
+ele domina aquele elemento cujo inteiro correspondente
+seja seu divisor. **Considere os estilos fogo, água, ar,**
+**terra e raio** correspondentes, respectivamente, aos
+inteiros **2, 3, 5, 7 e 11**. 
+
+#### Entrada:
+A entrada possui uma única linha, contendo um
+número inteiro que corresponde ao valor numérico do
+chakra de um certo ninja. É garantido que haverá pelo
+menos um chakra.
+
+#### Saída:
+A saída consiste no nome de cada estilo que o ninja
+domina, um por linha, na ordem que foram apresentados
+acima e sem acentuação
+
+| Entrada | Saída |
+| --- | --- |
+| 11 | raio |
+| 45 | agua <br> ar |
+| 26 | fogo |
+| 28  | fogo <br> terra |
