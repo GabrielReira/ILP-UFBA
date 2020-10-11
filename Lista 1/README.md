@@ -400,3 +400,38 @@ formas procuradas.”
 | 13 30 30 13 <br> 90 90 90 90 | Retangulo. |
 | 8 8 8 8 <br> 45 135 135 45 | Losango.  |
 | 14 15 21 10 <br> 67 33 120 140 | Nenhuma das formas procuradas. |
+
+
+
+
+---
+
+
+
+# C - LOOP
+
+
+### C1 - Média das idades
+O professor Rubisley gostaria de saber qual é a média de idade entre
+seus alunos do curso de programação. Para isto, ele pediu que você
+desenvolva um programa que tendo como entrada as idades dos alunos,
+informe a média entre elas. O programa deve ser encerrado quando for
+digitado uma idade menor ou igual a zero.
+
+#### Entrada:
+Serão dados vários inteiros representando as idades dos alunos. O
+programa só deve parar a leitura de idades quando o inteiro informado for
+menor ou igual a zero.
+
+#### Saída:
+A saída do programa consiste da média inteira entre as idades
+digitadas.
+
+| Entrada | Saída |
+| --- | --- |
+| 15 <br> 20 <br> 30 <br> 0 | 21 |
+| 15 <br> 15 <br> 15 <br> 0 | 15 |
+| 13 <br> 12 <br> 5 <br> -2 | 10 |
+| 18 <br> 0 | 18 |
+| 20 <br> 10 <br> 12 <br> 14 <br> 16 <br> 12 <br> 0 | 14 |
+| 60 <br> 10 <br> 20 <br> 15 <br> 12 <br> -20 | 23 |
