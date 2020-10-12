@@ -435,3 +435,47 @@ digitadas.
 | 18 <br> 0 | 18 |
 | 20 <br> 10 <br> 12 <br> 14 <br> 16 <br> 12 <br> 0 | 14 |
 | 60 <br> 10 <br> 20 <br> 15 <br> 12 <br> -20 | 23 |
+
+
+
+### C2 - Exame Chunin
+O Exame Chunin é uma série de testes em
+que ninjas iniciantes (genins) tem que passar para
+se tornarem ninjas experientes (chunins).
+Geralmente, a primeira fase é uma prova escrita, a segunda
+fase é uma fase de campo e, por último, existe uma
+fase de luta entre os que sobraram para ver quem
+merece subir de patente no mundo ninja.  
+É importante dizer que, mesmo que um genin perca uma
+luta na última fase, ele ainda pode ser considerado apto para
+se tornar um chunin. O resultado da luta ajuda na hora da
+decisão, mas caso o genin seja considerado merecedor
+pelos avaliadores, ele pode se tornar um chunin. Outra
+curiosidade é que o vencedor da luta final também
+pode ser desclassificado.  
+Naruto e seus amigos estavam prontos para realizar o Exame. Entretanto,
+infelizmente, o Exame não pôde ser terminado por conta da invasão a Konoha
+comandada por Orochimaru com a ajuda de ninjas da Areia.  
+Tsunade, a nova Hokage (líder do País do Fogo), precisa da sua ajuda
+para saber quem passou no Exame.  
+Um genin passa no exame se a média de suas pontuações obtidas nas fases for
+maior que 60.
+
+#### Entrada:
+A primeira linha da entrada indica a quantidade *N* (1 ≤ N ≤ 100) de ninjas que
+participaram do Exame Chunin.
+Em cada uma das *N* linhas seguintes serão dados três inteiros *E*, *C*, *L* (0 ≤ E,
+C, L ≤ 100), que indicam, respectivamente, a pontuação de cada ninja na primeira,
+segunda e terceira fase do seu Exame.
+
+#### Saída:
+Para cada ninja, imprima “Ninja K: passou no Exame Chunin com X de pontuacao”,
+onde *K* é o número do ninja e *X* é a pontuação final daquele ninja caso ele tenha passado
+no Exame, e imprima “Ninja K: nao passou no Exame Chunin”, caso o genin não tenha
+passado no exame. Os ninjas são numerados de 1 a N.  
+A pontuação final X deve ser impressa com uma casa decimal após a vírgula.
+
+| Entrada | Saída |
+| --- | --- |
+| 2 <br> 100 95 0 <br> 50 50 50 | Ninja 1: passou no Exame Chunin com 65.0 de pontuacao <br> Ninja 2: nao passou no Exame Chunin |
+| 3 <br> 75 50 75 <br> 100 100 100 <br> 0 0 0 | Ninja 1: passou no Exame Chunin com 66.7 de pontuacao <br> Ninja 2: passou no Exame Chunin com 100.0 de pontuacao <br> Ninja 3: nao passou no Exame Chunin |
