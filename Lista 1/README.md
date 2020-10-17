@@ -550,3 +550,46 @@ quantidade total de pokémons capturados durante os *N* dias.
 | 1 <br> 10 | 10 |
 | 2 <br> 4 <br> 4 | 8 |
 | 5 <br> 25 <br> 30 <br> 15 <br> 10 <br> 20 | 100 |
+
+
+
+### C4 - Desarme a bomba
+
+Victor e seus amigos adoram jogos eletrônicos. Quanto mais
+desafiador, mais o grupo se junta para “zera-los”! Dentre os estilos mais
+procurados pelo grupo, se encontra os jogos de aventura e raciocínio lógico.
+E o mais novo adquirido pelo grupo é o Contra-Ataque. Jogo de equipe
+contra equipe (Terroristas x Contra-terroristas). Os terroristas são
+responsáveis por armar uma bomba a cada rodada e os contra-terroristas
+vão tentar desarmar a bomba a cada rodada. A equipe contra-terrorista
+vence uma rodada se conseguir desarmar a bomba, caso contrário são os
+terroristas que vencem aquela rodada. Assim, após *N* rodadas diga quem
+venceu.
+
+A cada rodada as seguintes regras são utilizadas:
+1. A equipe Terrorista vai gerar um código de 4 dígitos para armar a
+bomba;
+2. A equipe Contra-Terrorista, para vencer a rodada, precisa desarmar a
+bomba, descobrindo o segredo da mesma;
+3. Felizmente o segredo é fácil, basta verificar se o número gerado pelos
+4 dígitos da bomba é **divisível por 11**, se for, a equipe contraterrorista
+vence a rodada.
+
+Victor não é muito fã da idéia de ser Terrorista e só aceita jogar na
+equipe contra-terrorista. Muito competitivo, ele busca vencer de qualquer
+modo e para isso pediu a sua ajuda para fazer um programa que calcula se
+o segredo da bomba a cada rodada é divisível ou não por 11.
+
+#### Entrada:
+Na primeira linha será dado um inteiro *N* indicando o número de
+rodadas.
+Em cada uma das próximas *N* linhas será dado um inteiro de 4
+dígitos indicando o código da bomba naquela rodada.
+
+#### Saída:
+Para cada rodada do jogo imprima uma linha com a resposta “Sim”,
+caso a equipe contra-terrorista vença, ou “Nao” caso contrário.
+
+| Entrada | Saída |
+| --- | --- |
+| 4 <br> 1111 <br> 9810 <br> 1011 <br> 2376 | Sim <br> Nao <br> Nao <br> Sim |
