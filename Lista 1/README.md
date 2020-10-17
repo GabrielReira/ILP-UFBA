@@ -593,3 +593,35 @@ caso a equipe contra-terrorista vença, ou “Nao” caso contrário.
 | Entrada | Saída |
 | --- | --- |
 | 4 <br> 1111 <br> 9810 <br> 1011 <br> 2376 | Sim <br> Nao <br> Nao <br> Sim |
+
+
+
+### C5 - O novo dilema de Thanos
+
+Thanos estava confiante que seu plano de outrora era perfeito. Porém, para sua surpresa, um de
+seus fiéis capatazes foi certeiro: “Não seria mais justo e equilibrado se, em vez de eliminarmos
+metade do Universo diretamente, nós eliminássemos metade dos seres vivos de cada planeta
+existente?”. Thanos reconheceu que a ideia era realmente brilhante e decidiu adotar novos
+planos. Contudo, ele seguirá a mesma linha de antes, eliminando metade dos indivíduos daqueles
+planetas cuja população seja representada por um número par de pessoas.
+
+Para esta nova tarefa, você deverá computar a quantidade de planetas presentes no Universo,
+suas respectivas populações e dizer, para cada um dos planetas, se Thanos poupará aquele
+planeta ou não.
+
+#### Entrada:
+A entrada consistirá de um número inteiro *P*, representando a quantidade de planetas do
+Universo. Posteriormente, virão *P* linhas representando as Populações *Pi* de cada planeta
+(onde i representa o planeta atual, e varia a partir de *1* até *P*).
+- 1 ≤ *P* ≤ 15
+- 1 ≤ *Pi* ≤ 10¹⁵
+
+#### Saída:
+Sua saída deverá imprimir *P* linhas, indicando a decisão *Di* (onde i representa o planeta atual, e
+varia a partir de *1* até *P*) e a identificação *i* de cada planeta avaliado por Thanos.
+
+| Entrada | Saída |
+| --- | --- |
+| 3 <br> 100008 <br> 3817 <br> 17232 | Thanos nao poupara o Planeta 1. <br> Thanos poupara o Planeta 2. <br> Thanos nao poupara o Planeta 3. |
+| 5 <br> 8288 <br> 1298364 <br> 181818199 <br> 99 <br> 28283646 | Thanos nao poupara o Planeta 1. <br> Thanos nao poupara o Planeta 2. <br> Thanos poupara o Planeta 3. <br> Thanos poupara o Planeta 4. <br> Thanos nao poupara o Planeta 5. |
+| 4 <br> 87123678489 <br> 17612357176 <br> 22631827364 <br> 34639579 | Thanos poupara o Planeta 1. <br> Thanos nao poupara o Planeta 2. <br> Thanos nao poupara o Planeta 3. <br> Thanos poupara o Planeta 4. |
