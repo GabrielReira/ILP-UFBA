@@ -2,16 +2,18 @@
 
 
 ### A1 - Mercado do futuro
+
 Ana é uma garota amante de jogos eletrônicos e não gosta de perder
 tempo no mercado com o seu pai. Decidiu então desenvolver um programa
 que diminua o seu tempo perdido nas filas do mercado. Seu dispositivo
 registra suas compras e seu pai paga a conta sem precisar utilizar os caixas
 do mercado. Ela deseja calcular o tempo perdido nos mercados para
 convencer os seus amigos da eficiência do seu novo aparelho, que não
-gasta tempo algum, é simples e prático.  
+gasta tempo algum, é simples e prático.
+
 1. O mercado possui apenas 1 caixa para pagar pelas mercadorias.  
 2. Cada mercadoria registrada aumenta o atraso em 2 segundos.  
-3. O mercado possui diversos clientes na fila.  
+3. O mercado possui diversos clientes na fila.
 
 #### Entrada:
 A entrada possui uma única linha, contendo um número inteiro “C”
@@ -37,9 +39,11 @@ tempo perdido no mercado.
 
 ### A2 - Que os jogos comecem 1
 Você foi transportado para um mundo de aventuras e fantasias! Neste mundo
-você deve resolver questões para aumentar seu nível.  
+você deve resolver questões para aumentar seu nível.
+
 Logo de cara você encontra O SER SUPREMO chamado **Malver**.  
-Malver lhe desafia a resolver uma questão de matemática NÍVEL 3.  
+Malver lhe desafia a resolver uma questão de matemática NÍVEL 3.
+
 Então vamos lá...É HORA DO DUELO:  
 Resolva: **X + (25 - 1 + (-11 + 3) + 4)**
 
@@ -59,11 +63,15 @@ Imprima a frase “Resultado da questão é: ” seguido da resposta.
 
 
 ### A3 - Que os jogos comecem 2
+
 Hum.... Conheço você de algum lugar!!  
-De onde será? HAAAAAAAAA....Não acredito que passou no meu teste de nível 3.  
+De onde será? HAAAAAAAAA....Não acredito que passou no meu teste de nível 3.
+
 Se prepare para o próximo desafio.  
-Aliás, dessa vez vou pedir uma ajuda do meu amigo Sasuke.  
-É HORA DO DUELO:  
+Aliás, dessa vez vou pedir uma ajuda do meu amigo Sasuke.
+
+É HORA DO DUELO!
+
 Resolva:
 - Questão 1: **X + (54 * (43 * 2) + (Y + 43))**;
 - Questão 2: **Y * (24 * (12 * 3) - (X + 43))**;
@@ -85,17 +93,19 @@ Imprima as frases conforme a coluna SAÍDA informado na tabela abaixo.
 
 
 ### A4 - Maratona Netflix
+
 Jorginho está indo mal no colégio. Visando passar em todas as matérias, ele definiu um
 sistema de recompensas próprio. Para cada hora de estudo, ele “ganha” duas horas de
-Netflix.  
+Netflix.
+
 Como ele pretende terminar “Stranger Things”, Jorginho pediu que você desenvolvesse
 um programa que recebe as horas estudadas durante a semana e retorna o número de
 horas de lazer disponíveis para serem “resgatadas”, sabendo que ele não estudou no fim
-de semana.  
+de semana.
 
 #### Entrada:
 A entrada consiste de cinco inteiros Ki, separados por espaços, correspondentes ao
-número de horas estudadas em cada dia da semana.  
+número de horas estudadas em cada dia da semana.
 - 0 ≤ Ki ≤ 24;
 - 0 < i ≤ 5.
 
@@ -111,8 +121,10 @@ disponíveis para assistir a série.
 
 
 ### A5 - Game Of Thrones
+
 O inverno está chegando no mundo de game of thrones, e Jon Snow precisa de sua ajuda para
-salvar a vida do povo do norte.  
+salvar a vida do povo do norte.
+
 Com a chegada do inverno Jon precisa saber qual a quantidade
 de comida que precisa ser estocada em Winterfell. Porém, fazer esses cálculos demanda algum
 trabalho e Jon precisa pensar em outras coisas no momento, então sobrou para você a missão
@@ -135,8 +147,10 @@ precisa ser estocada.
 
 
 ### A6 - Área do mapa
+
 Você foi contratado por uma famosa empresa de desenvolvimento de
-jogos e foi logo alocado para a parte de desenvolvimento.  
+jogos e foi logo alocado para a parte de desenvolvimento.
+
 A empresa anda ocupada em desenvolver um novo jogo de mundo aberto com 
 um mapa realmente grande. Você ficou responsável por implementar o
 programa que, dados o comprimento e a largura do mapa, calcula a sua
@@ -166,18 +180,21 @@ A saída consiste em uma única linha contendo um número inteiro: A
 
 
 ### B1 - Dilema de Thanos
+
 Thanos, o temido Titã do Universo Marvel, tem o objetivo de reequilibrar o universo eliminando
-exatamente metade dos seres vivos existentes.  
+exatamente metade dos seres vivos existentes.
+
 O que poucas pessoas sabem é que, na verdade, Thanos sofre desde a infância com um problema:
 ele não consegue lidar bem com matemática e odeia números pares. Por conta disso, ele decidiu
-que só eliminará metade da população do universo caso essa quantidade seja um número par.  
+que só eliminará metade da população do universo caso essa quantidade seja um número par.
+
 Thanos consultou o Oráculo com o intuito de encontrar o programador com o maior potencial em
 todo o Universo e que pudesse desenvolver seu programa. Após a consulta, você foi recrutado
 para tal tarefa. O objetivo é criar um programa que, dado o número atual da população de todo o
 Universo, ele diga a atitude que Thanos tomará. 
 
 #### Entrada:
-A entrada consiste de um número inteiro *N*.  
+A entrada consiste de um número inteiro *N*.
 - 1 ≤ N ≤ 10¹⁵
 
 #### Saída:
@@ -195,13 +212,15 @@ conterá somente uma das duas frases abaixo:
 
 
 ### B2 - Pokémon
+
 A franquia de jogos de Pokémon consiste em um mundo onde as
 pessoas convivem com “monstros”, construindo relação com eles,
 capturando, batalhando, entre outras atividades. Um dos objetivos
 principais dos jogos é capturar todos os Pokémon possíveis da região,
 para ajudar o Professor a completar a enciclopédia chamada Pokédex.
 Para capturar um Pokémon, é necessário enfraquecê-lo e, então, jogar a
-Pokébola.  
+Pokébola.
+
 Leaf é uma garota que está em missão para completar a Pokédex e
 deseja saber se a quantidade de Pokébolas que ela tem no momento é
 suficiente para capturar todos os Pokémon da área em que ela está.
@@ -209,7 +228,7 @@ Desconsiderando a chance de um Pokémon fugir da Pokébola e considerando
 que cada área tem diversidade limitada de espécies de Pokémon, escreva um
 programa que determina se Leaf tem Pokébolas suficientes para capturar
 todos as espécies que podem aparecer ali e, se não tiver, quantas Pokébolas
-ela precisa comprar.  
+ela precisa comprar.
 
 #### Entrada:
 A entrada possui uma única linha, com dois números *E* e *P*, que
@@ -235,9 +254,12 @@ comprar.
 
 
 ### B3 - Drone da Amazonia
-A loja Amazonia decidiu fazer suas entregas utilizando drones, porém, ainda é necessário implementar a parte do código que irá dizer ao drone se ele está na posição determinada para entrega
-ou não. Você deve escrever um programa que dadas as coordenadas de entrega e atual do drone,
-diga se o drone pode ou não soltar o pacote.
+
+A loja Amazonia decidiu fazer suas entregas utilizando drones, porém, ainda
+é necessário implementar a parte do código que irá dizer ao drone se ele está
+na posição determinada para entrega ou não. Você deve escrever um programa que
+dadas as coordenadas de entrega e atual do drone, diga se o drone pode ou não
+soltar o pacote.
 
 #### Entrada:
 A primeira linha da entrada consiste de dois inteiros, Xe e Ye, correspondentes as coordenadas de
@@ -258,8 +280,10 @@ sejam diferentes.
 
 
 ### B4 - O Microverso
+
 Rick e Morty estão em mais uma de suas aventuras intergalácticas quando Rick
-precisa fazer uma pausa e checar se a bateria da nave está funcionando nos conformes.  
+precisa fazer uma pausa e checar se a bateria da nave está funcionando nos conformes.
+
 Essa bateria, entretanto, é nada mais nada menos que um universo em miniatura cujos
 habitantes trabalham para gerar energia para a bateria da nave do Rick. Ele agora precisa
 da sua ajuda, pois só quer dar partida na nave se tiver certeza de que os habitantes do
@@ -268,10 +292,12 @@ até o momento para que eles possam chegar ao planeta onde tudo é espiga sem te
 fazer paradas pelo caminho.
 
 #### Entrada:
-A entrada possui duas linhas.  
+A entrada possui duas linhas.
+
 A primeira linha contém uma variável *T* que informa
 se os habitantes estão trabalhando (ela deve receber 1 caso estejam trabalhando e 0
-caso contrário).  
+caso contrário).
+
 A segunda linha contém três inteiros: *EB*, *EP* e *EN*; sendo *EB* a
 quantidade de energia que a bateria já possui (0 ≤ EB ≤ 5000), *EP* é a energia
 produzida até então pelos habitantes e que poderá ser utilizada (0 ≤ EP ≤ 3000) e *EN*
@@ -296,11 +322,13 @@ cristalinas que podem invocar o Deus Dragão Shenlong, que
 tem habilidades de conceder desejos para quem conseguir
 juntar todas as 7 Esferas do Dragão da Terra. Shenlong pode
 realizar qualquer desejo a não ser que ele exceda o poder de
-seu Criador, que obrigatoriamente deve estar vivo.  
+seu Criador, que obrigatoriamente deve estar vivo.
+
 Para saber se pode realizar um desejo, Shenlong precisa da sua
 ajuda. Dada a quantidade *P* de poder necessária para realizar
 um desejo e a informação *C* de que o criador está vivo ou não,
-informe se Shenlong conseguirá realizar o desejo.  
+informe se Shenlong conseguirá realizar o desejo.
+
 Um desejo pode ser realizado se a quantidade de poder necessária for
 menor ou igual a 7000 e o Criador estiver vivo.
 
@@ -321,18 +349,20 @@ Imprima “Sim, o desejo pode ser realizado!”, caso o desejo possa ser realiza
 | 500 V | Sim, o desejo pode ser realizado! |
 | 7000 M | Nao, o desejo nao pode ser realizado :( |
 | 15000 V | Nao, o desejo nao pode ser realizado :( |
-| 500000 M  | Nao, o desejo nao pode ser realizado :( |
+| 500000 M | Nao, o desejo nao pode ser realizado :( |
 
 
 
 ### B6 - Chakra
+
 No universo de Naruto, cada indivíduo nasce com
 afinidade a um elemento específico no chakra que
 corresponde ao estilo de jutsu que ele pode utilizar (estilo
 **fogo**, estilo **água**, estilo **ar**, estilo **terra**
 ou estilo **raio**). Os ninjas podem ser capaz de moldar seu
 chakra a outros estilos através de muito treinamento, podendo
-até juntar estilos e criar um elemento completamente novo.  
+até juntar estilos e criar um elemento completamente novo.
+
 A vila de Konoha desenvolveu um método de
 descobrir com que elemento um ninja possui afinidade
 através de pedaços de papel que reagem de maneiras
@@ -340,7 +370,8 @@ especificas para cada estilo, porém fica complicado de
 identificar quando um ninja domina mais de um. Por isso, a
 vila de Konoha entrou em contato com os alunos de
 programação da UFBA para que fizessem um programa
-que facilitasse essa identificação.  
+que facilitasse essa identificação.
+
 Dado um valor inteiro para um determinado chakra,
 ele domina aquele elemento cujo inteiro correspondente
 seja seu divisor. **Considere os estilos fogo, água, ar,**
@@ -368,26 +399,31 @@ acima e sem acentuação
 
 
 ### B7 - Quadriláteros
+
 Entre os quadriláteros notáveis, temos 3 com definições bem
 semelhantes: os quadrados, retângulos e losangos. Cirinho é um aluno de
 geometria que recebeu como tarefa diferenciar quadriláteros pelas suas
-medidas e pediu sua ajuda para isso.  
+medidas e pediu sua ajuda para isso.
+
 Escreva um programa que define se o quadrilátero é exclusivamente
 um retângulo, exclusivamente um losango, ou exclusivamente um quadrado,
 dadas as medidas de seus lados e de seus ângulos internos (soma dos
-ângulos internos tem que ser 360 graus).  
+ângulos internos tem que ser 360 graus).
 
 #### Entrada:
-A entrada possui duas linhas, cada uma contendo 4 inteiros.  
+A entrada possui duas linhas, cada uma contendo 4 inteiros.
+
 A primeira linha contém 4 inteiros: L1, L2, L3 e L4, indicando as
 medidas dos lados do quadrilátero, sendo que L1 é paralelo a L4 e L2 é
-paralelo a L3.  
+paralelo a L3.
+
 A segunda linha contém 4 inteiros: A1, A2, A3 e A4, indicando as
 medidas dos ângulos do quadrilátero, sendo que A1 é oposto a A4 e A2 é
-oposto a A3.  
+oposto a A3.
 
 #### Saída:
-A saída consiste em uma linha.  
+A saída consiste em uma linha.
+
 Se a figura for exclusivamente um retângulo, imprimir: “Retangulo.”,
 se a figura for exclusivamente um losango, imprimir: “Losango.”, se a figura
 for exclusivamente um quadrado, imprimir: “Quadrado.”, se a figura não se
@@ -398,7 +434,7 @@ formas procuradas.”
 | --- | --- |
 | 12 12 12 12 <br> 90 90 90 90 | Quadrado. |
 | 13 30 30 13 <br> 90 90 90 90 | Retangulo. |
-| 8 8 8 8 <br> 45 135 135 45 | Losango.  |
+| 8 8 8 8 <br> 45 135 135 45 | Losango. |
 | 14 15 21 10 <br> 67 33 120 140 | Nenhuma das formas procuradas. |
 
 
@@ -412,6 +448,7 @@ formas procuradas.”
 
 
 ### C1 - Média das idades
+
 O professor Rubisley gostaria de saber qual é a média de idade entre
 seus alunos do curso de programação. Para isto, ele pediu que você
 desenvolva um programa que tendo como entrada as idades dos alunos,
@@ -439,25 +476,30 @@ digitadas.
 
 
 ### C2 - Exame Chunin
+
 O Exame Chunin é uma série de testes em
 que ninjas iniciantes (genins) tem que passar para
 se tornarem ninjas experientes (chunins).
 Geralmente, a primeira fase é uma prova escrita, a segunda
 fase é uma fase de campo e, por último, existe uma
 fase de luta entre os que sobraram para ver quem
-merece subir de patente no mundo ninja.  
+merece subir de patente no mundo ninja.
+
 É importante dizer que, mesmo que um genin perca uma
 luta na última fase, ele ainda pode ser considerado apto para
 se tornar um chunin. O resultado da luta ajuda na hora da
 decisão, mas caso o genin seja considerado merecedor
 pelos avaliadores, ele pode se tornar um chunin. Outra
 curiosidade é que o vencedor da luta final também
-pode ser desclassificado.  
+pode ser desclassificado.
+
 Naruto e seus amigos estavam prontos para realizar o Exame. Entretanto,
 infelizmente, o Exame não pôde ser terminado por conta da invasão a Konoha
-comandada por Orochimaru com a ajuda de ninjas da Areia.  
+comandada por Orochimaru com a ajuda de ninjas da Areia.
+
 Tsunade, a nova Hokage (líder do País do Fogo), precisa da sua ajuda
-para saber quem passou no Exame.  
+para saber quem passou no Exame.
+
 Um genin passa no exame se a média de suas pontuações obtidas nas fases for
 maior que 60.
 
@@ -472,10 +514,39 @@ segunda e terceira fase do seu Exame.
 Para cada ninja, imprima “Ninja K: passou no Exame Chunin com X de pontuacao”,
 onde *K* é o número do ninja e *X* é a pontuação final daquele ninja caso ele tenha passado
 no Exame, e imprima “Ninja K: nao passou no Exame Chunin”, caso o genin não tenha
-passado no exame. Os ninjas são numerados de 1 a N.  
+passado no exame. Os ninjas são numerados de 1 a N.
+
 A pontuação final X deve ser impressa com uma casa decimal após a vírgula.
 
 | Entrada | Saída |
 | --- | --- |
 | 2 <br> 100 95 0 <br> 50 50 50 | Ninja 1: passou no Exame Chunin com 65.0 de pontuacao <br> Ninja 2: nao passou no Exame Chunin |
 | 3 <br> 75 50 75 <br> 100 100 100 <br> 0 0 0 | Ninja 1: passou no Exame Chunin com 66.7 de pontuacao <br> Ninja 2: passou no Exame Chunin com 100.0 de pontuacao <br> Ninja 3: nao passou no Exame Chunin |
+
+
+
+### C3 - Temos que pegar
+
+João adora jogar pokémon, joga todos os dias. Contudo, está
+perdendo o controle de quantos pokémons têm após um determinado
+período de tempo. Por isto, decidiu pedir sua ajuda para desenvolver um
+programa que após *N* dias, informe quantos pokémons ele capturou.
+
+#### Entrada:
+Na primeira linha será dado um inteiro *N* (1 <= N <= 365) que é a
+quantidade de dias que João capturou pokémons.  
+Em cada uma das próximas ‘N’ linhas será dado um inteiro ‘Q’
+(1<=’Q’<=100) representando o número de pokémons capturados ao final
+daquele dia.
+
+#### Saída:
+A saída do programa consiste em uma única linha informando a
+quantidade total de pokémons capturados durante os *N* dias.
+
+| Entrada | Saída |
+| --- | --- |
+| 5 <br> 2 <br> 3 <br> 4 <br> 5 <br> 6 | 20 |
+| 4 <br> 20 <br> 21 <br> 33 <br> 10 | 84 |
+| 1 <br> 10 | 10 |
+| 2 <br> 4 <br> 4 | 8 |
+| 5 <br> 25 <br> 30 <br> 15 <br> 10 <br> 20 | 100 |
