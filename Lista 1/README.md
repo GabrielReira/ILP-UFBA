@@ -625,3 +625,45 @@ varia a partir de *1* até *P*) e a identificação *i* de cada planeta avaliado
 | 3 <br> 100008 <br> 3817 <br> 17232 | Thanos nao poupara o Planeta 1. <br> Thanos poupara o Planeta 2. <br> Thanos nao poupara o Planeta 3. |
 | 5 <br> 8288 <br> 1298364 <br> 181818199 <br> 99 <br> 28283646 | Thanos nao poupara o Planeta 1. <br> Thanos nao poupara o Planeta 2. <br> Thanos poupara o Planeta 3. <br> Thanos poupara o Planeta 4. <br> Thanos nao poupara o Planeta 5. |
 | 4 <br> 87123678489 <br> 17612357176 <br> 22631827364 <br> 34639579 | Thanos poupara o Planeta 1. <br> Thanos nao poupara o Planeta 2. <br> Thanos nao poupara o Planeta 3. <br> Thanos poupara o Planeta 4. |
+
+
+
+### C6 - Minerando até o fim
+
+Minecraft é um jogo onde você precisa conseguir
+recursos para sobreviver num mundo alternativo. Tudo no
+jogo é representado por blocos, que devem ser quebrados
+pelo jogador (seja com as próprias mãos ou com utensílios
+construídos a partir de recursos já obtidos) para obter o
+recurso daquele bloco. 
+
+Para quebrar blocos de pedra e minérios, o utensílio
+mais adequado é a picareta. Lucas é um jogador dedicado e
+conseguiu construir uma picareta indestrutível. Então, ele
+começou a minerar indo em linha reta para baixo até
+encontrar um bloco de Rocha Matriz que é inquebrável. Assim,
+ele quer sua ajuda para saber quantos minérios ele coletou.
+Considere que os únicos blocos possíveis de se encontrar
+minerando são blocos de **P**edra comum e dos minérios
+**C**arvão, **O**uro e **D**iamante.
+
+#### Entrada:
+A entrada consiste de várias linhas. Em cada linha será dado um caractere
+representando os blocos encontrados por Lucas ao minerar. O caractere pode assumir os seguintes valores:
+- **P** para bloco de Pedra;
+- **C** para bloco de Carvão;
+- **O** para bloco de Ouro;
+- **D** para bloco de Diamante;
+- **M** para bloco de Rocha Matriz (inquebrável), indicando o fim da entrada. 
+
+#### Saída:
+Seu programa deve imprimir 4 linhas, cada uma contendo um inteiro. Na primeira
+linha imprima quantos blocos de Carvão foram minerados, na segunda linha imprima
+quantos blocos de Ouro foram minerados, na terceira linha imprima quantos blocos de
+Diamante foram minerados e na última linha imprima o total de minérios que foram
+minerados por Lucas.
+
+| Entrada | Saída |
+| --- | --- |
+| P <br> C <br> O <br> D <br> O <br> C <br> P <br> P <br> P <br> O <br> D <br> C <br> M | 3 <br> 3 <br> 2 <br> 8 |
+| O <br> C <br> P <br> O <br> D <br> O <br> D <br> D <br> C <br> P <br> P <br> C <br> O <br> M | 3 <br> 4 <br> 3 <br> 10 |
