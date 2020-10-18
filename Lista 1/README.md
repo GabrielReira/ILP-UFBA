@@ -667,3 +667,80 @@ minerados por Lucas.
 | --- | --- |
 | P <br> C <br> O <br> D <br> O <br> C <br> P <br> P <br> P <br> O <br> D <br> C <br> M | 3 <br> 3 <br> 2 <br> 8 |
 | O <br> C <br> P <br> O <br> D <br> O <br> D <br> D <br> C <br> P <br> P <br> C <br> O <br> M | 3 <br> 4 <br> 3 <br> 10 |
+
+
+
+### C7 - Batalha Pokémon
+
+No universo de Pokémon, uma das principais atividades que as pessoas realizam
+junto a seus Pokémon é batalhar. A batalha, geralmente, acontece até que a barra
+de Hit Points (HP) de um dos Pokémon chegue a 0.
+
+Guilherme é um treinador iniciante e recebeu alguns Pokémon também inexperientes
+do professor. Inseguro para batalhas e não querendo machucar seus Pokémon, que só
+conhecem um movimento que cause danos físicos (diminue o HP do adversário), Guilherme
+pediu ao Professor Carvalho que conseguisse bonecos de treino, que não atacam.
+
+Para saber o potencial de cada um dos seus Pokémons, Guilherme observou a
+performance deles em suas primeiras batalhas contra o boneco de treino. Você, como
+amigo e bom programador, resolve ajudá-lo. Considerando que o movimento que os
+Pokémon sabem diminui sempre a mesma quantidade de HP do boneco de treino, você
+criará um programa que diz em quantos ataques cada um deles consegue derrotar o boneco
+de treino.
+
+#### Entrada:
+A primeira linha da entrada é um inteiro *N*, indicando quantos Pokémon Guilherme
+recebeu. Em cada uma das próximas *N* linhas (Cada linha representa um Pokémon) serão
+dados 2 inteiros *P* e *HP*, sendo *P* a quantidade de dano que cada ataque do Pokémon
+causa no boneco de treino e *HP* a quantidade de Hit Points que o boneco possui
+inicialmente (com a barra cheia) ao começar o treino de cada Pokémon.
+- 0 < *N* ≤ 50;
+- 0 < *P* ≤ 10;
+- 0 < *HP* ≤ 150. 
+
+#### Saída:
+Seu programa deve imprimir *N* linhas, cada uma com um inteiro *C*, indicando quantos
+ataques ele precisou dar para derrotar o boneco de treino.
+
+| Entrada | Saída |
+| --- | --- |
+| 3 <br> 8 50 <br> 10 150 <br> 9 132 | 7 <br> 15 <br> 15 |
+| 2 <br> 5 122 <br> 2 49 | 25 <br> 25 |
+
+
+
+### C8 - Titã
+
+A humanidade encontra-se a beira da extinção. Os titãs, gigantes sem necessidades biológicas
+que predam os humanos desde sua criação, cercam as últimas colônias.
+
+Alguns dos grupos de humanos conseguiram erguer muros altos e resistentes para manter o
+inimigo afastado. No entanto, se um titã for alto o suficiente ele poderá quebrar parte da muralha
+e permitir a entrada de titãs menores (aí será o fim!). Esse tipo de titã é dito como Colossal.
+
+Em vista da situação, sempre que um desses titãs se aproximar da barreira, uma equipe de
+defesa fica encarregada de eliminá-lo.
+
+Pensando nisso, dado:
+- Uma altura *H* que representa o tamanho do menor titã Colossal;
+- Uma sequência de *N* titãs de altura *h* que estão próximos da muralha.
+
+Você deve criar um código que imprima “KYOJIN!” caso algum titã de tamanho maior ou igual
+a H esteja próximo da barreira. Caso contrário, imprima “SUSSA”.
+
+#### Entrada:
+A entrada consiste em dois números inteiros *H* (altura do titã Colossal) e *N* (quantidade de
+titãs próximos) seguidos por *N* linhas, cada uma contendo uma altura *h* (outro inteiro) de um
+titã próximo.
+- 60 ≤ *H* ≤ 70;
+- 1 ≤ *N* ≤ 105;
+- 1 ≤ *h* ≤ 70.
+
+#### Saída:
+Seu programa deve imprimir “KYOJIN!” se algum titã Colossal estiver por perto. Caso contrário,
+deve imprimir “SUSSA”.
+
+| Entrada | Saída |
+| --- | --- |
+| 3 3 <br> 2 <br> 3 <br> 3| KYOJIN! |
+| 10 5 <br> 4 <br> 3 <br> 4 <br> 5 <br> 2 | SUSSA |
