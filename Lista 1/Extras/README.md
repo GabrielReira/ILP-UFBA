@@ -34,3 +34,28 @@ A saída consiste em imprimir “DOUBLEKILL”, “TRIPLEKILL”, “QUADRAKILL�
 | --- | --- |
 | 5 <br> 10 <br> 19 <br> 28 <br> 38 <br> 68 | DOUBLEKILL <br> TRIPLEKILL <br> QUADRAKILL <br> PENTAKILL |
 | 4 <br> 20 <br> 29 <br> 40 <br> 44 | DOUBLEKILL <br> DOUBLEKILL |
+
+
+
+## Torneio de futebol - Avançado
+
+O torneio de futebol começou disputado e as equipes já fizeram as suas primeiras partidas. Para
+auxiliar na classificação de cada equipe, o saldo de gol precisa ser calculado. O saldo de gol é a
+diferença de gols marcados e sofridos nas partidas já jogadas. 
+
+#### Entrada
+A entrada possui primeiramente um número inteiro *P* (0 <= P <= 100000) que indica a quantidade
+de partidas jogadas por uma dada equipe. A seguir, serão fornecidos *P* inteiros que representam o
+saldo *Q* (-50 <= Q <= 50) de gols de cada partida.
+
+#### Saída
+A saída consiste de 1 inteiro X, representando qual foi o saldo de gols do intervalo de jogos que teve
+o maior saldo de gols.
+
+| Entrada | Saída |
+| --- | --- |
+| 4 <br> 3 <br> -4 <br> 1 <br> 0 | 3 |
+| 5 <br> 2 <br> 2 <br> 1 <br> 0 <br> -1 | 5 |
+
+Caso de teste 1: O melhor saldo de gols foi do intervalo [1,1] = 3;  
+Caso de teste 2: O melhor saldo de gols foi do intervalo [1,4] = 2 + 2 + 1 + 0 = 5.
