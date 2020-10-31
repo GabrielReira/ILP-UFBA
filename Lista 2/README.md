@@ -85,3 +85,24 @@ Você deverá imprimir o valor correto do n-ésimo elemento da sequência do jog
 | --- | --- |
 | 5 <br> 1 8 5 3 6 <br> 3 | 5 |
 | 8 <br> 9 6 5 7 5 2 3 5 <br> 7 | 3 |
+
+
+
+### D4 - Fila
+
+Na loja de celulares de Bernardo, os clientes com senhas ímpares são atendidos antes que os
+clientes de senhas pares, por isso, Bernardo pediu que você escrevesse um programa que, dado um
+conjunto de senhas, retorne as senhas na ordem correta (primeiro as ímpares e depois as pares).
+
+#### Entrada:
+A primeira linha consiste em um inteiro *N*, o número de senhas emitidas por Bernardo. As *N*
+linhas seguintes contém cada uma um inteiro *S*, correspondente a uma senha emitida.
+- 1 ≤ S, N ≤ 100.
+
+#### Saída:
+O programa deverá imprimir as senhas na ordem correta (primeiro as ímpares e depois as pares).
+
+| Entrada | Saída |
+| --- | --- |
+| 5 <br> 1 2 3 4 5 | 1 <br> 3 <br> 5 <br> 2 <br> 4 |
+| 2 <br> 2 4 | 2 <br> 4 |
