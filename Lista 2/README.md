@@ -58,3 +58,30 @@ pontuação de Mário ao fim da fase.
 | 4 <br> 1 3 7 9 <br> 2 | 8 |
 | 6 <br> 1 3 7 8 2 2 <br> 10 | 1 |
 | 10 <br> 4 6 2 5 3 1 1 3 9 0 <br> 3 | 10 |
+
+
+
+### D3 - Jogo da memória
+
+Ana e Maria sempre foram garotas interessadas por jogos de memória. Desde pequenas, sempre
+tiveram paixão por esses tipos de jogo. Porém, em um determinado dia, depois de falarem uma
+enorme sequência de milhares de números e solicitar algum deles, se deram conta de que não seria
+tão fácil relembrar todos eles. Com isso, decidiram pedir sua ajuda para criar uma espécie de
+inspetor para verificar se a oponente havia de fato informado o valor correto. O jogo funciona
+de uma maneira fácil. Dada uma sequência de números e uma posição, o outro jogador deverá
+informar o valor que estava naquela posição.
+
+#### Entrada:
+A primeira linha do problema contêm um inteiro *N*, representando o número total de valores do
+jogo da memória. A linha seguinte conterá *N* números, que são os valores que fazem parte do jogo.
+Em seguida, na última linha, conterá o valor *M* do índice do número que se deseja verificar.
+- 1 ≤ N ≤ 100;
+- 1 ≤ M ≤ N.
+
+#### Saída:
+Você deverá imprimir o valor correto do n-ésimo elemento da sequência do jogo da memória.
+
+| Entrada | Saída |
+| --- | --- |
+| 5 <br> 1 8 5 3 6 <br> 3 | 5 |
+| 8 <br> 9 6 5 7 5 2 3 5 <br> 7 | 3 |
