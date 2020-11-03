@@ -147,5 +147,33 @@ Dr. Strange consegue viajar para *D*, ou **“NOPE :(”**, caso contrário.
 
 | Entrada | Saída |
 | --- | --- |
-| 4 <br> 1 2 3 4 <br> 4 7 9 1 <br> 5 9 12 5| OK |
+| 4 <br> 1 2 3 4 <br> 4 7 9 1 <br> 5 9 12 5 | OK |
 | 3 <br> 1 2 4 <br> 1 56 22 <br> 1 2 4 | NOPE :( |
+
+
+
+### D6 - Escolha as caixas
+
+Póvoa está tentando desenvolver um novo jogo de azar. Uma das ideias que lhe veio à
+mente foi a de distribuir inteiros aleatórios em caixas numeradas e pedir ao jogador que
+selecionasse algumas destas caixas. **Caso a soma das caixas escolhidas pelo jogador for**
+**um múltiplo de 3, ele vence, caso contrário, o vencedor será Póvoa.** Sua tarefa é ajudar
+na implementação do jogo descrito.
+
+#### Entrada:
+A entrada é composta por 3 linhas. A primeira linha é composta por dois inteiros **N** e
+**M**, respectivamente, o número de caixas dispostas e o número de caixas selecionadas. A
+segunda linha contém *N* inteiros separados por espaços onde o *i-ésimo* inteiro
+representa o conteúdo da *i-ésima* caixa. Analogamente, a terceira linha consiste dos *M*
+identificadores das caixas selecionadas. A numeração das caixas começa em 1.
+- 1 ≤ N, M < 100.
+
+#### Saída:
+Seu programa deve imprimir uma única linha que diz **“povoa”** ou **“jogador”**, com base
+naquele que tiver vencido.
+
+| Entrada | Saída |
+| --- | --- |
+| 3 1 <br> 1 2 3 <br> 3 | jogador |
+| 5 2 <br> 7 12 4 3 1 <br> 2 5 | povoa |
+| 5 3 <br> 2 2 2 5 9 <br> 1 2 3 | jogador |
