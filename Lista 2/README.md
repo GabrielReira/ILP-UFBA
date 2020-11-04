@@ -205,3 +205,32 @@ O programa deverá imprimir em cada linha a resposta de cada consulta realizada 
 | --- | --- |
 | 5 3 <br> 300 200 150 400 500 <br> 1 2 <br> 2 5 <br> 5 5 | 500 <br> 1250 <br> 500 |
 | 6 2 <br> 500 700 320 610 900 80 <br> 1 3 <br> 4 6 | 1520 <br> 1590 |
+
+
+
+### D8 - Brasileirão
+
+O campeonato brasileiro de futebol, organizado pela CBF, é um campeonato no formato de
+pontos corridos, utilizando a pontuação gerada pelos **(n-1)²** jogos resultantes do
+double round-robin, onde **n** é o número de times.
+
+A CBF sofreu um ataque hacker e perdeu o arquivo que dizia a rodada dessa semana,
+e pediu sua ajuda para recriar essa rodada. Porém, nem tudo está perdido. Eles têm uma
+lista dos times que jogam toda semana, e é através dessa lista que se gera os jogos.
+
+Nessa lista, os times jogam entre si seguindo a seguinte lógica: sejam os **n** times do
+campeonato os **i** times da competição, os times **1 ≤ i ≤ n/2** jogam com o time 
+**n - i + 1**, onde o nome que vem primeiro é o mandante. Imprima a tabela da semana
+segundo a especificação.
+
+#### Entrada:
+A entrada é composta por um inteiro **N**, seguido de uma lista de *N* strings (N é par),
+um nome por linha. Nenhuma string terá mais de 50 caracteres.
+- 1 < N ≤ 1000;
+
+#### Saída:
+**N/2 linhas**, cada linha no formato **"Time *i* X Time *n-i+1*"**.
+
+| Entrada | Saída |
+| --- | --- |
+| 6 <br> Flamengo <br> Athletico Paranaense <br> Gremio <br> Bahia <br> Palmeiras <br> Vasco da Gama | Flamengo X Vasco da Gama <br> Athletico Paranaense X Palmeiras <br> Gremio X Bahia |
