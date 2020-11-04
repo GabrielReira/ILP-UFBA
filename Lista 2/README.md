@@ -177,3 +177,31 @@ naquele que tiver vencido.
 | 3 1 <br> 1 2 3 <br> 3 | jogador |
 | 5 2 <br> 7 12 4 3 1 <br> 2 5 | povoa |
 | 5 3 <br> 2 2 2 5 9 <br> 1 2 3 | jogador |
+
+
+
+### D7 - Lobo de Wall Street
+
+Rubisley é um grande investidor da bolsa de valores. Todos os dias, após o fechamento da bolsa,
+Rubis anota em sua agenda o quanto obteve de lucro após a venda de suas ações. Como ele não
+pode tirar os olhos de seu Home Broker, pediu a sua ajuda para construir um programa que, dados
+os valores registrados na sua agenda, responde a consultas de lucro total num intervalo de dias.
+
+#### Entrada:
+A primeira linha da entrada é composta por dois inteiro **N** e **C**, correspondente ao número de
+dias que Rubisley registrou e ao número de consultas que devem ser realizadas no sistema. Em seguida,
+são fornecidos *N* inteiros **L**, correspondentes ao lucro de um dia de movimentações. Por fim, as
+próximas *C* linhas são compostas por dois inteiros **I** e **F**, correspondentes ao primeiro e ao
+último dia do intervalo consultado.
+- 1 ≤ N ≤ 10⁵;
+- 1 ≤ I ≤ F ≤ N;
+- 1 ≤ C ≤ 5 ∗ 10⁵;
+- 1 ≤ L ≤ 10⁴.
+
+#### Saída:
+O programa deverá imprimir em cada linha a resposta de cada consulta realizada ao sistema.
+
+| Entrada | Saída |
+| --- | --- |
+| 5 3 <br> 300 200 150 400 500 <br> 1 2 <br> 2 5 <br> 5 5 | 500 <br> 1250 <br> 500 |
+| 6 2 <br> 500 700 320 610 900 80 <br> 1 3 <br> 4 6 | 1520 <br> 1590 |
