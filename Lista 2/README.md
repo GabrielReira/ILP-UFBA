@@ -234,3 +234,36 @@ um nome por linha. Nenhuma string terá mais de 50 caracteres.
 | Entrada | Saída |
 | --- | --- |
 | 6 <br> Flamengo <br> Athletico Paranaense <br> Gremio <br> Bahia <br> Palmeiras <br> Vasco da Gama | Flamengo X Vasco da Gama <br> Athletico Paranaense X Palmeiras <br> Gremio X Bahia |
+
+
+
+---
+
+
+
+# E - String
+
+
+### E1 - Mensagem secreta
+
+Brito, grande amigo de Nagilson, está de castigo e, graças a isso, não pode jogar o
+Civilization 5. Infelizmente, Brito é deveras influenciável e uma única mensagem de
+Nagilson é suficiente para que ele desrespeite ordens da sua mãe. Como dona Brito
+estava interceptando as mensagens enviadas por Nagilson, os meninos resolveram pedir
+ajuda para codificar e decodificar as mensagens, para que dona Brito não perceba nada.
+
+#### Entrada:
+A entrada é composta por 2 linhas. A primeira contém um inteiro **n**, indicando o número
+de transformações que cada caractere da String deve sofrer, isto é, caso seja lido o número
+2, a letra *'a'* deve ser transformada em *'c'*, se a letra for *'z'* ela deve ser
+transformada em *'b'*, ou seja, é cíclico. A segunda linha contém a String a ser transformada.
+
+Todas as letras devem ser minúsculas.
+
+#### Saída:
+A saída é composta por uma única linha contendo a String modificada.
+
+| Entrada | Saída |
+| --- | --- |
+| 2 <br> vamos jogar! | xcoqu lqict! |
+| -2 <br> xcoqu lqict! | vamos jogar! |

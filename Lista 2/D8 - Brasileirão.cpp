@@ -7,6 +7,7 @@ int main()
     cin >> n;
     string teams[n];
 
+    // Limpar o 'cache' do getline
     string a;
     getline(cin, a);
 
