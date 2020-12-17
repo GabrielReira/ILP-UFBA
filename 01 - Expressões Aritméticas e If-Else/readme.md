@@ -170,3 +170,97 @@ o valor total da recompensa pelo bando do chapéu de palha, que é a
 | --- | --- |
 | 300000000 120000000 16000000 30000000 77000000 | 543000000 |
 | 500000000 320000000 66000000 200000000 177000000 | 1263000000 |
+
+
+---
+
+
+## G - Guessing Game
+
+O Guessing Game é um jogo onde o jogador tenta adivinhar um número secreto
+que é gerado pelo programa. Você foi contratado para desenvolver o Guessing Game.
+O programa deve:
+
+1. Receber o número secreto gerado pelo programa;
+2. Receber o número escolhido pelo jogador;
+3. Comparar os números (secreto e do jogador); e
+4. Exibir uma mensagem informando se o jogador acertou o número ou não.
+
+### Entrada
+A entrada é composta por dois números inteiros **X** e **Y** (0 <= X, Y <= 100),
+que representam, respectivamente, o **número secreto** e o **número do jogador**.
+
+### Saída
+O programa deve comparar os números e informar se o jogador acertou ou errou o
+número secreto, imprimindo a frase “**Você errou!**” ou “**Você acertou!**”,
+sem aspas.
+
+| Entrada | Saída |
+| --- | --- |
+| 99 10 | Você errou! |
+| 10 10 | Você acertou! |
+
+
+---
+
+
+## H - Aniversário
+
+Olá! Queremos dar as boas-vindas aos nossos mais novos colegas de computação. Para
+isso, queremos saber um pouquinho mais sobre você. Na verdade, queremos saber o mês
+de seu aniversário, para que quando essa pandemia passar, possamos fazer a maior
+festa que o DCC já viu.
+
+Para isso, leia um valor inteiro entre 1 e 12, inclusive, correspondente ao mês do seu
+aniversário. A seguir, você deverá mostrar o nome do mês do ano em que comemoraremos o
+seu aniversário e a nossa festa.
+
+### Entrada
+A entrada contém um único valor inteiro, correspondente ao mês do seu aniversário.
+
+### Saída
+Imprima o nome do mês correspondente ao número fornecido na entrada, com a primeira
+letra maiúscula, conforme exemplos abaixo.
+
+| Entrada | Saída |
+| --- | --- |
+| 9 | Setembro |
+| 4 | Abril |
+
+
+---
+
+
+## I - Pu-Dean!
+
+Sam e Dean acabaram de voltar de sua aventura com o Scooby-Doo e decidiram fazer
+uma festa de comemoração. Sam está querendo fazer uma surpresa para o Dean e sabendo
+que ele é viciado em Pudim resolveu que seria um monte de pudins, mas não qualquer
+pudim e sim o especial Pu-Dean!
+
+Sam sabe que para se fazer **1 Pu-Dean** perfeito é preciso **1259 segundos** de
+dedicação e dos seguintes ingredientes:
+
+- 4 caixas de leite condensado;
+- 8 ovos;
+- 2 litros de leite;
+- 1 xícara de açúcar (calda).
+
+Sabendo que Sam tem **C** caixas de leite condensado, **O** ovos, **L** litros de leite,
+**X** xícaras de açúcar, e que ele fará o máximo de Pu-Deans que puder com os ingredientes
+que tem, ajude-o a descobrir qual o total de tempo que ele precisará dedicar na cozinha.
+
+### Entrada
+A entrada é composta por **4** números inteiros **C, O, L, X** (0 <= C, O, L, X <=
+1000000000), representando caixas de leite condensado, ovos, litros de leite e xícaras de
+açúcar, respectivamente.
+
+### Saída
+A saída deve conter **3** informações em números inteiros **H, M e S**, representando
+respectivamente, **horas**, **minutos** e **segundos** gastos por Sam. A saída deve estar
+no seguinte formato: ***H* h *M* m *S* s**.
+
+| Entrada | Saída |
+| --- | --- |
+| 4 8 2 1 | 0 h 20 m 59 s |
+| 17 24 13 14 | 1 h 2 m 57 s |
