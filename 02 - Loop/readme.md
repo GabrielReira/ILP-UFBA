@@ -80,3 +80,69 @@ ou “**N nao eh primo**”, de acordo com a especificação fornecida.
 | --- | --- |
 | 1259 | 1259 eh primo |
 | 22 | 22 nao eh primo |
+
+
+---
+
+
+## D - Defesa de Ba Sing Se
+
+Água, Terra, Fogo, Ar. Há muito tempo, as quatro nações viviam em harmonia, até que tudo
+mudou quando a nação do fogo decidiu atacar. Atualmente, a grande cidade de Ba Sing Se é
+a última grande metrópole que resiste à nação do fogo. Porém, com o retorno do avatar, a
+nação do fogo decidiu começar uma campanha contra a grande cidade.
+
+Sabendo da campanha da nação do fogo e conhecendo seus poderes de oráculo, o avatar pediu
+sua ajuda para saber se a muralha da cidade resistirá aos ataques até a sua chegada, ou
+se ela cairá.
+
+### Entrada
+A primeira linha contém dois inteiros **D** (1 ≤ D ≤ 100), a quantidade de dias que o
+avatar irá levar para chegar, e **E** (100 ≤ E ≤ 10000), a energia inicial da muralha da
+cidade. As próximas *D* linhas terão cada uma um inteiro **A** (1 ≤ A ≤ 100) que
+representa o dano que a nação do fogo fez à energia da muralha em cada dia *D*. Se a
+energia da muralha chegar a zero, a cidade cairá.
+
+### Saída
+A saída consiste em uma única linha. Caso a energia da muralha seja maior que
+zero no último dia de ataque antes da chegada do Avatar, você deverá imprimir a
+mensagem “**Resistiu**”, ou, caso contrário, você deverá imprimir o dia em que a cidade
+caiu, ou seja, o **dia em que a energia da muralha chegou a zero**.
+
+| Entrada | Saída |
+| --- | --- |
+| 4 400 <br> 100 <br> 100 <br> 100 <br> 99 | Resistiu |
+| 3 111 <br> 10 <br> 100 <br> 1 | 3 |
+| 3 100 <br> 50 <br> 60 <br> 30 | 2 |
+
+
+---
+
+
+## E - Idas à feira
+
+Seu Bobô regularmente vai à feira para fazer compras, porém ele ficará em casa no
+domingo para assistir o jogo do seu time do coração. Assim, ele pediu para seu filho Vicentino
+fazer as compras. Vicentino fará contas em um programa que calcula o valor que precisa levar
+para poder comprar tudo que está na lista de compras feita por Seu Bobô, considerando a
+quantidade de cada tipo de fruta ou legume e os preços individuais destes itens.
+
+### Entrada
+A primeira entrada terá um inteiro **N** (1 <= N <= 50), que indica a quantidade de idas à
+feira que Vicentino fez, ou seja, cada ida à feira é um caso de teste. Cada caso de teste começa
+com um inteiro **M** (1 <= M <= 100), que indica a quantidade de produtos que estão disponíveis
+para venda na feira. Em cada uma das próximas *M* linhas, teremos o preço unitário **P** (double,
+0.05 <= P <= 100.00) daquele produto, seguido da quantidade **Q** (inteiro, 0 <= Q <= 100) que
+Seu Bobô precisa daquele produto.
+
+### Saída
+Para cada caso de teste (ida à feira), **imprima o valor que será gasto** por seu Bobô naquela
+ida à feira, no seguinte formato: “**R$ *Valor***”, sendo o *Valor* com duas casas decimais.
+Conforme os exemplos abaixo.
+
+| Entrada | Saída |
+| --- | --- |
+| 2 **// Duas idas à feira** <br> 4 **// Ida 1 à feira, 4 produtos disponíveis** <br> 2.19 2 <br> 3.10 0 <br> 2.80 1 <br> 2.73 3 <br> 5 **// Ida 2 à feira, 5 produtos disponíveis** <br> 6.70 1 <br> 1.12 0 <br> 1.71 2 <br> 2.80 1 <br> 2.81 1 | R$ 15.37 **// Total da ida 1** <br> R$ 15.73 **// Total da ida 2** |
+
+Obs.: Nos exemplos de entrada e saída, o texto em negrito não faz parte da entrada e nem da
+saída, é somente explicativo.
