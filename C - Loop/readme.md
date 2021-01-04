@@ -1,5 +1,6 @@
 # Exercícios sobre loop (for, while, do/while)
 
+
 ## A - Fortalecimento de clima
 
 As habilidades principais dos Pokémon recebem um acréscimo de pontos de dano
