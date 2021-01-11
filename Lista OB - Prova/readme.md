@@ -128,3 +128,78 @@ foi para tentar defender, a frase impressa na segunda linha será "**...e o gole
 | e e <br> e d | Driblado <br> ...e o goleiro pega |
 | d d <br> d d | Driblado <br> Gol |
 | e d <br> d d | Bloqueado |
+
+
+---
+
+
+## C - Loop
+
+### C1 - No meio do caminho
+
+Carlão da Verdade era um senhor que gostava de caminhar por bosques. Certo dia,
+Carlão decidiu seguir o caminho do bosque que levava a uma cachoeira.
+Carlão temia que no meio do caminho pudesse encontrar uma pedra grande o suficiente
+para tornar o percurso perigoso demais para ele. Caso houvesse uma pedra dessa magnitude,
+ele teria que desistir de sua caminhada e retornar para casa.
+
+Segundo Carlão, se a altura de uma pedra em seu caminho for maior que *K*, ele não
+poderá passar por ela.
+
+Como ele não quer perder tempo, ele pediu a sua ajuda para descobrir se no meio do
+caminho haverá uma pedra que o impossibilitará de chegar à cachoeira. Para isso, lhe foram
+dadas informações sobre as *N* pedras que se encontram no caminho. Cada informação é um
+inteiro que corresponde à altura da *i-ésima* pedra. De posse dessas informações, ajude a
+descobrir se Carlão deve ou não desistir de sua caminhada.
+
+#### Entrada
+A primeira linha da entrada contém dois inteiros, **N** e **K** , que indicam a quantidade de
+pedras no caminho e a altura da maior pedra pela qual Carlão consegue passar.
+A segunda linha da entrada contém *N* inteiros **Hᵢ** , onde o *i-ésimo* valor representa a altura da
+*i-ésima* pedra no caminho.
+- 0 ≤ N ≤ 50;
+- 1 ≤ K, Hᵢ ≤ 109.
+
+#### Saída
+Seu código deve imprimir “**Tá safe, o caminho é izi!!!**” (sem aspas), caso Carlão possa
+fazer sua caminhada tranquilamente (ele consegue passar por todas as pedras). Caso
+contrário, imprima “**Você não vai passar!!!**” (sem aspas) .
+
+| Entrada | Saída |
+| --- | --- |
+| 3 7 <br> 2 5 11 | Você não vai passar!!! |
+| 3 11 <br> 2 5 7 | Tá safe, o caminho é izi!!! |
+
+
+### C2 - BLACK JACK
+
+O black jack é um jogo de cartas em que cada jogador recebe um número
+determinado de cartas. Se tivermos dois jogadores, o vencedor é o que obtiver, no
+somatório das cartas em sua mão, 21 pontos exatos, ou o maior somatório que mais se
+aproxime de 21 e que seja menor que 21. Caso o valor da soma das cartas de algum
+jogador supere 21 pontos, ele é considerado perdedor automaticamente. Você deverá
+fazer um programa que simule uma partida entre dois jogadores e apresente o
+resultado.
+
+#### Entrada
+Na primeira linha da entrada será dado um inteiro **N** (1 <= N <= 7), indicando o
+número de cartas na mão de cada jogador. Na segunda linha serão dadas as *N* cartas do
+**jogador A**. Na terceira linha serão dadas as *N* cartas do **jogador B**.
+Saiba que as cartas tem valores entre 1 e 11, podendo, obviamente, se repetir.
+
+#### Saída
+A saída constará de uma frase com as seguintes informações:
+
+    1. Caso haja vencedor, você deverá imprimir “Jogador X vence com P pontos.”, sendo que ‘X’ é o
+    jogador ‘A’ ou ‘B’, e ‘P’ é o somatório das cartas do vencedor;
+    2. Caso algum jogador vença com 21 pontos exatos, você deverá imprimir “Jogador X vence com
+    BlackJack.”, sendo que ‘X’ é o jogador ‘A’ ou ‘B’; 
+    3. Caso os jogadores tenham o mesmo número de pontos, você deverá imprimir “Empate.”, isto
+    inclusive se ambos forem eliminados quando obtiverem mais de 21 pontos.
+
+| Entrada | Saída |
+| --- | --- |
+| 4 <br> 1 4 2 6 <br> 4 6 1 1 | Jogador A vence com 13 pontos. |
+| 4 <br> 1 3 5 2 <br> 6 4 10 1 | Jogador B vence com BlackJack. |
+| 3 <br> 10 4 6 <br> 10 8 10 | Jogador A vence com 20 pontos. |
+| 4 <br> 10 10 3 1 <br> 10 1 2 9 | Empate. |
