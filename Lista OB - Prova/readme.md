@@ -203,3 +203,72 @@ A saída constará de uma frase com as seguintes informações:
 | 4 <br> 1 3 5 2 <br> 6 4 10 1 | Jogador B vence com BlackJack. |
 | 3 <br> 10 4 6 <br> 10 8 10 | Jogador A vence com 20 pontos. |
 | 4 <br> 10 10 3 1 <br> 10 1 2 9 | Empate. |
+
+
+---
+
+
+## D - Array
+
+### D1 - Treino CS:GO
+
+Thiago decidiu treinar em um mapa do jogo de CS:GO. Neste mapa, o objetivo é
+estourar balões para obter pontos. Cada cor de balão tem uma pontuação aleatória única
+durante o treino, ou seja, os balões verdes podem ter a pontuação 2, os azuis 4. Porém,
+uma cor aleatória retira pontos ao invés de acumular. Como Thiago não sabe a cor a
+princípio, ele deseja saber qual foi sua pontuação ao final do treino.
+
+#### Entrada
+A entrada possui três linhas. A primeira linha contém um inteiro **N** (1 ≤ N ≤
+1000), representando o número de balões que Thiago estourou. A segunda linha
+contém uma sequência de *N* inteiros **P** (1 <= P <= 100), representando a pontuação de
+cada balão estourado. Na última linha será dado um inteiro **C** (1 <= C <= 100), que
+representa a cor (pontuação) do balão que retira pontos, ou seja, a pontuação a ser
+retirada toda vez que um balão daquela cor for estourado. Lembre-se que os balões de
+uma mesma cor tem sempre a mesma pontuação.
+
+#### Saída
+A saída consiste em uma única linha contendo a pontuação final.
+
+| Entrada | Saída |
+| --- | --- |
+| 4 <br> 1 3 2 4 <br> 2 | 6 |
+| 6 <br> 1 1 3 1 3 4 <br> 3 | 1 |
+| 5 <br> 1 1 2 2 1 <br> 2 | -1 |
+
+
+### D2 - Vingadores Avante!
+
+Thanos é um titã louco que está executando um plano
+maligno. Ele deseja encontrar todas as joias do infinito para
+eliminar 50% da população do universo. Em sua caçada as
+joias, ele encontra muitas joias falsas o que torna o trabalho
+dele longo e difícil. Na terra existe uma equipe de pessoas
+com poderes que desejam impedir Thanos de executar o plano, e precisam saber se Thanos já
+conseguiu coletar todas as joias verdadeiras, caso não tenha coletado
+todas, eles precisam saber quais joias verdadeiras Thanos já encontrou.
+
+As Joias tem seus identificadores especiais, que são: **Joia do Poder = 0**,
+**Joia do Tempo = 7**, **Joia da Mente = 11**, **Joia do Espaço = 14**,
+**Joia da Realidade = 17**, **Joia da Alma = 19**. Esses identificadores poderão aparecer
+no máximo uma vez cada.
+
+#### Entrada
+A primeira linha contém um inteiro **N** (0 < N < 1000) que informará
+a quantidade de joias que Thanos coletou, a segunda linha contém os *N*
+identificadores inteiros **X** (0 <= X <= 1000) das joias que Thanos já
+coletou.
+
+#### Saída
+Você deverá exibir a mensagem “**Vingadores Avante**”, caso Thanos
+tenha coletado todas as joias. Caso tenha coletado apenas algumas, você
+deverá exibir todas as joias verdadeiras que foram coletadas por Thanos, na
+ordem em que foram dadas, e na segunda linha a mensagem “**Vingadores**
+**Atencao**”. Caso Thanos não tenha coletado nenhuma joia verdadeira, exiba
+a mensagem “**Pizza**”.
+
+| Entrada | Saída |
+| --- | --- |
+| 7 <br> 19 8 7 14 0 11 17 | Vingadores Avante |
+| 5 <br> 14 0 2 6 19 | 14 0 19 <br> Vingadores Atencao |
+| 3 <br> 2 3 4 | Pizza |
