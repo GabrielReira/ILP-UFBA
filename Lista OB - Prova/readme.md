@@ -272,3 +272,65 @@ a mensagem “**Pizza**”.
 | 7 <br> 19 8 7 14 0 11 17 | Vingadores Avante |
 | 5 <br> 14 0 2 6 19 | 14 0 19 <br> Vingadores Atencao |
 | 3 <br> 2 3 4 | Pizza |
+
+
+---
+
+
+## E - Matriz e String
+
+### E1 - Cinema
+
+Cleiton está comprando ingressos para ir ao cinema com sua namorada, mas a sessão está
+quase lotada e ele precisa de sua ajuda para escolher uma poltrona para se sentar. A atendente te
+informará quantas fileiras a sala de cinema tem, quantas cadeiras cada fileira possui e se cada lugar
+está ou não ocupado. Cabe a você encontrar dois assentos, um do lado do outro, para Cleiton
+assistir seu filme. As fileiras e os assentos são informados em ordem crescente, e são contados a
+partir de 1. **Só há um lugar onde Cleiton pode se sentar ao lado de sua namorada**.
+
+#### Entrada
+A primeira linha da entrada consiste de dois inteiros **F** e **C** que representam, respectivamente,
+a quantidade de fileiras e a quantidade de cadeiras em cada fileira (contadas a partir de 1). Cada uma
+das próximas *F* linhas contém *C* inteiros que serão **0 para um assento vago** ou **1 a para um assento ocupado**.
+- 1 ≤ F ≤ 30;
+- 2 ≤ C ≤ 30.
+
+#### Saída
+Seu programa deve imprimir na primeira linha "**Fileira: F**", onde *F* é a fileira escolhida. E na outra
+linha "**Assentos: X e Y**", onde *X* e *Y* são os assentos escolhidos.
+
+| Entrada | Saída |
+| --- | --- |
+| 1 4 <br> 0 1 0 0 | Fileira: 1 <br> Assentos: 3 e 4 |
+| 4 3 <br> 0 1 0 <br> 1 1 1 <br> 0 0 1 <br> 1 1 1 | Fileira: 3 <br> Assentos: 1 e 2 |
+| 2 6 <br> 0 1 1 1 0 1 <br> 1 1 0 0 1 1 | Fileira: 2 <br> Assentos: 3 e 4 |
+
+
+### E2 - Caça palavras
+
+Caça palavras é sem dúvida um passatempo muito apreciado pelos alunos
+de ILP-PD, tanto é que os professores da disciplina resolveram treinar as
+habilidades de percepção de seus pupilos.
+
+Como você não foge de um desafio, terá o privilégio de fazer um programa que
+encontra uma palavra escondida no meio de várias letras. A disposição da palavra
+pode ser na **horizontal** ou **vertical**, e além disso, existe a possibilidade
+da palavra estar escrita de **trás para frente**.
+
+#### Entrada
+A entrada será dada por uma grade de caracteres com dimensões **N x N**, portanto
+será dado primeiramente um inteiro **N** (6 <= N <= 10). Cada uma das *N* linhas
+seguintes possuirá *N* caracteres, separados por espaços, sendo que estes podem
+ser **somente letras minúsculas no intervalo a - z**. Por fim, na última linha,
+será dada a palavra a ser buscada e que terá tamanho **X** (3 <= X <= 8).
+
+#### Saída
+Você deverá imprimir as coordenadas da linha e coluna, na grade de caracteres,
+de onde começa a palavra buscada, seguidas na mesma linha, das coordenadas de
+onde termina a palavra buscada. Garantimos que a palavra sempre estará na grade e
+que sempre caberá nela.
+
+| Entrada | Saída |
+| :---: | --- |
+| 6 <br> a b c d e f <br> d c a s a b <br> j p a k t a <br> u b v c t e <br> t k e i o u <br> b o l a q u <br> casa | 1 1 1 4 |
+| 6 <br> a b c d e f <br> d a r a c b <br> j p a k t a <br> u b v c t e <br> t k e i o u <br> b o l a q u <br> levar | 5 2 1 2 |
