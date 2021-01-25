@@ -334,3 +334,69 @@ que sempre caberá nela.
 | :---: | --- |
 | 6 <br> a b c d e f <br> d c a s a b <br> j p a k t a <br> u b v c t e <br> t k e i o u <br> b o l a q u <br> casa | 1 1 1 4 |
 | 6 <br> a b c d e f <br> d a r a c b <br> j p a k t a <br> u b v c t e <br> t k e i o u <br> b o l a q u <br> levar | 5 2 1 2 |
+
+
+---
+
+
+## F - Ordenação
+
+### F1 - Boletim de urna de seção
+
+Durante as eleições municipais no Brasil, cada partido/coligação tem direito a
+colocar um fiscal por seção que fica responsável por monitorar e garantir que a eleição
+não sofrerá nenhum tipo de fraude ou interferência. Ao final do dia, isto é, encerrada a
+eleição, o responsável pela zona eleitoral/seção deve imprimir um documento chamado
+boletim de urna da seção, que mostra dentre outras informações, o resultado de votos
+por candidato. Cópias podem ser entregues a cada fiscal que estiver na sala, pois dessa
+forma os partidos e coligações conseguem apurar os votos mesmo antes da apuração
+oficial e até mesmo encontrar supostas fraudes ou erros.
+
+Escreva um programa que receba os boletins de três seções, e diga qual a quantidade de
+votos nestas três seções de cada um dos candidatos. Cada boletim contém os candidatos a
+prefeito seguindo uma mesma ordem, e a quantidade de votos obtidos por cada um. Os votos
+em cada boletim, portanto, devem ser lidos na mesma ordem para todos os candidatos. Ao
+final da leitura os votos devem ser somados e a lista ordenada do menor para o maior
+deverá ser impressa.
+
+#### Entrada
+Na primeira linha da entrada será dado um inteiro **N** (2 <= N <= 100),
+representando o número de candidatos que obviamente é igual em cada boletim. Cada
+uma das próximas 3 linhas (cada linha é um boletim, uma seção) contêm *N* inteiros,
+representando a quantidade de votos de cada candidato naquela seção.
+
+#### Saída
+A saída deve ser a impressão da quantidade total de votos obtidos por cada
+candidato nas três seções, ordenadas da menor quantidade para a maior.
+
+| Entrada | Saída |
+| --- | --- |
+| 4 <br> 2 3 1 5 <br> 1 5 4 4 <br> 2 3 4 3 | 5 <br> 9 <br> 11 <br> 12 |
+| 2 <br> 22 29 <br> 30 14 <br> 10 20 | 62 <br> 63 |
+
+
+### F2 - Stack Overflow
+
+Stack Overflow é um dos mais famosos sites de perguntas e respostas para profissionais e
+entusiastas na área de programação de computadores. E nesse ano, o pessoal da Stack
+resolveu mostrar o ranking com as linguagens de programação mais populares. Porém, devido a uma
+instabilidade no seu banco de dados, as pontuações se embaralharam e a ordem correta se
+perdeu. Nesse sentido, eles pediram sua ajuda para organizar as pontuações e suas respectivas
+linguagens.
+
+#### Entrada
+A primeira linha da entrada contém um número inteiro **J** (1 ≤ J ≤ 100), representando a
+quantidade de linguagens que estão embaralhadas. As próximas *J* linhas, contém cada uma,
+uma string **N**, representando o nome da linguagem, e um número real **P** (0 ≤ P ≤ 1000),
+representando a pontuação de cada uma. Considere *N* uma string sem espaços entre os
+caracteres e que não houve repetição de linguagem. Também não há repetição na pontuação.
+
+#### Saída
+Imprima as pontuações ordenadas crescentemente, precedidas por suas respectivas
+linguagens. Imprima uma linguagem por linha com um espaço entre o nome e a pontuação.
+Considere uma casa decimal de precisão.
+
+| Entrada | Saída |
+| --- | --- |
+| 4 <br> C++ 56.6 <br> HTML/CSS 46.5 <br> Java 55.9 <br> Assembly 70.6 | Assembly 70.6 <br> C++ 56.6 <br> Java 55.9 <br> HTML/CSS 46.5 |
+| 3 <br> TypeScript 32.9 <br> VBA 80 <br> C 66.9 | VBA 80.0 <br> C 66.9 <br> TypeScript 32.9 |
