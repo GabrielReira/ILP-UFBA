@@ -400,3 +400,75 @@ Considere uma casa decimal de precisão.
 | --- | --- |
 | 4 <br> C++ 56.6 <br> HTML/CSS 46.5 <br> Java 55.9 <br> Assembly 70.6 | Assembly 70.6 <br> C++ 56.6 <br> Java 55.9 <br> HTML/CSS 46.5 |
 | 3 <br> TypeScript 32.9 <br> VBA 80 <br> C 66.9 | VBA 80.0 <br> C 66.9 <br> TypeScript 32.9 |
+
+
+---
+
+
+## G - Busca binária
+
+### G1 - Mate o rei da noite
+
+A batalha de Winterfell começou. No campo de batalha a sua frente estende-se a horda do rei da noite.
+Jon Snow precisa eliminar o rei da noite para que todo o seu exército caia. Contando com suas habilidades
+furtivas, Jon te incumbiu a tarefa de identificar se o líder dos caminhantes brancos está no campo de batalha.
+
+Encontre o rei da noite. Para isso, você receberá a lista de identificadores dos caminhantes brancos no
+campo de batalha e alguns identificadores que podem ser do rei da noite. Caso o encontre, você deve
+informar rapidamente a Winterfell que a possibilidade de ganhar ainda existe, gritando para todos ouvirem.
+
+#### Entrada
+Primeiramente será dado um inteiro **X** (1 <= X <= 100000) que representa a quantidade de
+caminhantes brancos no campo de batalha. Na linha seguinte são fornecidos *X* inteiros **I** (1 <= I <= 100000)
+representando todos os identificadores dos caminhantes brancos nos arredores de Winterfell. Estes
+identificadores estão em ordem crescente. Em seguida, um inteiro **N** (1 <= N <= 100000) indica quantos
+identificadores o Rei da Noite pode ter. Na linha seguinte serão fornecidos os *N* identificadores **R** (1 <= R <=
+100000).  
+Somente um desses identificadores poderá estar na sequência de identificadores de caminhantes brancos.
+
+#### Saída
+Na saída deve ser impresso "**Preparem o vidro de dragao!!!**" se você encontrar o rei da noite, caso
+contrário, "**E assim termina nossa vigilia**".
+
+| Entrada | Saída |
+| --- | --- |
+| 5 <br> 45 62 91 666 1000 <br> 2 <br> 666 5 | Preparem o vidro de dragao!!! |
+| 8 <br> 2 12 34 43 67 85 98 90 <br> 1 <br> 13 | E assim termina nossa vigilia |
+
+
+### G2 - O Arquivo
+
+A Universidade de Temerant é um local para aprendizados superiores, especialista em muitas áreas diferentes do
+conhecimento, tais como: Alquimia, Artificiaria, Medicina, Retórica, Simpatia, etc. Para servir de apoio a esses
+campos, a Universidade conta com **O Arquivo**, uma biblioteca com milhares de livros, sem janelas ou decorações,
+tendo somente um grande portão de pedra.
+
+Para acessar esse enorme acervo e preservá-lo, a Universidade tem o que são chamados de escribas, os mantenedores
+do Arquivo. Eles conseguem os livros que os arcanistas (membros da universidade) precisam. Devido à queda do
+império Aturano e ao caos que isso gerou, a Universidade está com uma quantidade de escribas muito reduzida. Por
+isso, eles contam com a sua ajuda para que consigam atender a todos os arcanistas com eficiência.
+
+Como e'lir (arcanista iniciante) da Universidade, foi passada a você a tarefa de desenvolver um algoritmo que,
+dado o acervo de livros do Arquivo, **já ordenados pelo código**, e uma lista de livros requisitados pelos
+arcanistas, consiga dizer para o escriba com **rapidez** se cada um daqueles livros requisitados está disponível
+ou não, caso o livre exista na biblioteca.
+
+#### Entrada
+A primeira linha da entrada contém um inteiro **L** (1 ≤ L ≤ 3*10⁴) que indica quantos livros
+estão no Arquivo. Nas próximas *L* linhas será dada uma string com cinco caracteres (letras
+maiúsculas e minúsculas), que representa o código do livro, seguida por um inteiro **C** que tendo o
+valor 1 indica que o livro está disponível e tendo o valor 2 indica que o livro está emprestado. Na
+próxima linha será dado inteiro **A** (1 ≤ A ≤ 3*10⁴) que indica quantos livros há na lista de
+requisições dos arcanistas. Por fim, na próxima linha serão dados os códigos dos *A* livros
+requisitados.
+
+#### Saída
+A saída deverá conter para cada requisição o resultado da busca, que pode ser '**Disponivel**'
+ou '**Emprestado**', caso o livro exista no Arquivo, e '**Nao encontrado**', caso o livro não exista
+no Arquivo.
+
+
+| Entrada | Saída |
+| --- | --- |
+| 3 <br> KABDe 1 <br> MBJEF 2 <br> PDXDc 2 <br> 2 <br> KABDe PDXDc | Disponivel <br> Emprestado |
+| 2 <br> MJDGa 1 <br> RSKLb 2 <br> 4 <br> MJDGa DfSJL CBeDA RSKLb | Disponivel <br> Nao encontrado <br> Nao encontrado <br> Emprestado |
