@@ -1,4 +1,4 @@
-# Exercícios sobre if, if-else e if-else aninhados
+# Exercícios sobre if-else
 
 
 ## A - Guessing Game

@@ -1,4 +1,5 @@
-# Exercícios sobre vetor/array
+# Exercícios sobre vetor
+
 
 ## A - Em busca da esmeralda
 

@@ -1,5 +1,6 @@
 # Exercícios sobre ordenação
 
+
 ## A - Quem vai ser o milionário?
 
 Uma loja de tortas e doces muito engraçadinha resolveu angariar clientes com um sorteio. Os clientes

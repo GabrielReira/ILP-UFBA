@@ -1,4 +1,4 @@
-# Exercícios sobre loop (for, while, do/while)
+# Exercícios sobre loop (for/while)
 
 
 ## A - Fortalecimento de clima

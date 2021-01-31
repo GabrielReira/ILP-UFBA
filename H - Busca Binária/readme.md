@@ -1,4 +1,5 @@
-# Exercícios sobre busca binária em vetores
+# Exercícios sobre busca binária
+
 
 ## A - Floresta Equatorial da Amazônia
 

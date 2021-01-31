@@ -1,4 +1,5 @@
-# Exercícios sobre vetor multidimensional/matriz
+# Exercícios sobre vetor multidimensional (matriz)
+
 
 ## A - Detetizador do Futuro
 
